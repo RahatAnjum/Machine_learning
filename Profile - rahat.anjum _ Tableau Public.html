@@ -1,0 +1,2802 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)https://public.tableau.com/app/profile/rahat.anjum -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" src="./Profile - rahat.anjum _ Tableau Public_files/35f2b5d0eb"></script><script src="./Profile - rahat.anjum _ Tableau Public_files/nr-spa-1173.min.js.download"></script><script type="text/javascript" async="" src="./Profile - rahat.anjum _ Tableau Public_files/analytics.js.download"></script><script async="" src="./Profile - rahat.anjum _ Tableau Public_files/gtm.js.download"></script><script src="./Profile - rahat.anjum _ Tableau Public_files/gtm.js(1).download" type="text/javascript"></script><script type="text/javascript">addGTMLibrary&&"function"==typeof addGTMLibrary&&addGTMLibrary("GTM-WP98PN")</script><link rel="icon" href="https://public.tableau.com/app/favicon.ico"><script src="./Profile - rahat.anjum _ Tableau Public_files/newrelic.js.download" type="text/javascript"></script><script type="text/javascript">addNewRelicPlugin&&"function"==typeof addNewRelicPlugin&&addNewRelicPlugin("35f2b5d0eb","482479497")</script><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="referrer" content="origin-when-cross-origin"><script defer="defer" src="./Profile - rahat.anjum _ Tableau Public_files/main.44e7400e.js.download"></script><link href="./Profile - rahat.anjum _ Tableau Public_files/main.d316a006.css" rel="stylesheet"><link rel="stylesheet" type="text/css" href="./Profile - rahat.anjum _ Tableau Public_files/393.163cd833.chunk.css"><link rel="stylesheet" type="text/css" href="./Profile - rahat.anjum _ Tableau Public_files/258.7dd22f09.chunk.css"><title>Profile - rahat.anjum | Tableau Public</title><style data-react-tooltip="true">.__react_component_tooltip {
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 13px;
+  left: -999em;
+  opacity: 0;
+  padding: 8px 21px;
+  position: fixed;
+  pointer-events: none;
+  transition: opacity 0.3s ease-out;
+  top: -999em;
+  visibility: hidden;
+  z-index: 999;
+}
+.__react_component_tooltip.allow_hover, .__react_component_tooltip.allow_click {
+  pointer-events: auto;
+}
+.__react_component_tooltip::before, .__react_component_tooltip::after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+.__react_component_tooltip.show {
+  opacity: 0.9;
+  margin-top: 0;
+  margin-left: 0;
+  visibility: visible;
+}
+.__react_component_tooltip.place-top::before {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  bottom: -8px;
+  left: 50%;
+  margin-left: -10px;
+}
+.__react_component_tooltip.place-bottom::before {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  top: -8px;
+  left: 50%;
+  margin-left: -10px;
+}
+.__react_component_tooltip.place-left::before {
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  right: -8px;
+  top: 50%;
+  margin-top: -5px;
+}
+.__react_component_tooltip.place-right::before {
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  left: -8px;
+  top: 50%;
+  margin-top: -5px;
+}
+.__react_component_tooltip .multi-line {
+  display: block;
+  padding: 2px 0;
+  text-align: center;
+}</style><meta name="robots" content="index" data-rh="true"><meta property="og:site_name" content="Tableau Public" data-rh="true"><meta name="twitter:site" content="@tableaupublic" data-rh="true"><link rel="canonical" href="https://public.tableau.com/app/profile/rahat.anjum" data-rh="true"><meta name="description" content="Rahat Anjum&#39;s Tableau Public profile. View interactive data visualizations published by this author." data-rh="true"><meta property="og:title" content="Rahat Anjum - Profile | Tableau Public" data-rh="true"><meta property="og:image" content="data:image/png;base64,/9j/4AAQSkZJRgABAQAAAQABAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2NjIpLCBxdWFsaXR5ID0gOTAK/9sAQwADAgIDAgIDAwMDBAMDBAUIBQUEBAUKBwcGCAwKDAwLCgsLDQ4SEA0OEQ4LCxAWEBETFBUVFQwPFxgWFBgSFBUU/9sAQwEDBAQFBAUJBQUJFA0LDRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU/8AAEQgAlgCWAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A+uKKKTNABRS0maADFFFBNABRijNFABQaM0UAGKKO9FABRRmigBaSijNABS0lHagAoo79aKAFpPzoooAPzoozRQAUUUtACUUVp6N4b1LX5CtlavMoODJ0Rfqx4oAzKK9GsPg3cyKDeahFCf7sKF/1OKvt8GbUrxqcob1MQx/OgDyqiu+1L4QajbKWs7qG8A/hbMbH6ZyP1ri9Q0y60qcwXlvJbyjnbIMZ9x60AVaPzo4oBoAMUUdKKACg0UUAFFGaKACiiigAozRRQAUZorofA/hv/hJddjhcH7LEPMmOf4R2/E8fnQBteA/h4daVNQ1EMllnMcXQy+/sv869btreKzgSGCNIYkGFRBgAU+NFiRERQiKMKq8AD0p2aADNGaM0UAGao6vo1nrlo1vewLNGehP3lPqD2NXqM0AeD+MvBtx4UuwQTNZSn91Nj/x1vf8AnXOV9HaxpUGt6bNZ3K7opVxnup7Ee4r581XTZtI1G4s58CWFypx0PoR9RzQBUzRmiigABooooAM80Ufj+tFAC0lFBNABRRRQAtew/CPTBa+H5bsj95dSnn/ZXgfrurx2vevh+oTwdpgXpsJ/HcaAOhoxRR0oAKKKKACiiigAryX4w6YINWs71Rj7RGUbHqvf8iPyr1qvPfjKoOkaex+8JyB/3yf8BQB5NRR+FGaAClpKM+1ABRRRQAUUUUAFFFGaACvbPhbfC78JQxZy1vI8ZH47h+jV4nmu2+FniFdK1p7KZtsF5hQT0Eg+7+eSPyoA9ko9KKM0AGaKKKAFozSUUAFeYfGW+Bk02zB+ZQ8rD64A/k1emyypDE8kjBI0BZmJwAB1NfP3izXD4h165vBnymO2IHsg4H+P40AZFFFFABRRRQAd6KM0UAFGKOxooAPwo5ooxQAUoJUgg4I6EdqSjHNAHsfgDx7HrMEdhfyBNQQbVdjgTD/4r2713H4V4X4a+H+ra/5cyp9jtjyJ5eM+6jqf5e9ezaLp8+mWEdvPey38i/8ALWUAH9P6kmgC9RRRQAUhIVSW4AHJPalNc94x8NXniSy8m21J7NcfNFt+ST6kc/zHtQBxHxG8epqKvpemvuts4mnU8Sf7I9vfv9Ovnlauu+F9R8Oy7b23KIThZV5Rvof6HmsrFAC0maKKACjtRig0AHeijvRQAZozR+NH40AGRRkUfjRyelAD4YnuJUiiRpJHIVVUZJPpXrXgv4aQ6csd5qqLPdn5lgPKR/X1P6VL8OvBA0a3TUb2PN/KuURv+WSn+p/+t613NACDpjGB9KWikoAWiko70ALRSGloAiubWK8geGeJZoXGGR1yDXk3jf4bvpKyX2mK0tmOZIerRe49R+or16kPPXBoA+Zc0V3nxI8EDR5jqVimLKRv3ka9ImP9D+hrg6ACjNFHagAoo/GigAopaSgA/Gu2+GHhcaxqhv7hN1paEEA9Hk7D8Ov5VxaI0jKqgsxOAB1Jr6D8LaKugaFa2YA3quZCO7nk/r/KgDWxRR+FFABRRRQAfjRRRQAGiiigAooooAiu7SK+tZbedBJDKpR1PcGvn7xPoMnhzWZ7J8lFO6Nz/Eh6H/PcV9DVwnxY0IX2jJqEa/vrRsMQOSh6/kcH86APH6PxpaKAE/H9aKKKACiiigDpfh3pY1TxXaBhmODM7f8AAen64r3XFeYfBmyBl1K7I5ASJT9ck/yFeoUAJRilNFACYoxS0UAJijHNL+FFACUtFFACYoxS0UAHFQX1nHf2c9tKMxzIY2HsRip6KAPmm6tnsrqa3kGJInKN9QcGoq6X4iWYsvF9+AMLIVlH/AgCf1zXNUAFFHeigAzmjvRRQB7B8Hogvh25f+J7oj8Aq/8A167vpRRQAUUUUAFFFFABRRRQAUYoooAKO9FFABRRRQB478X4gniWBx/HaqT9dzCuGoooAWiiigD/2Q==" data-rh="true"><meta property="og:description" content="Rahat Anjum&#39;s Tableau Public profile. View interactive data visualizations published by this author." data-rh="true"><meta property="og:url" content="https://public.tableau.com/app/profile/rahat.anjum" data-rh="true"><meta name="twitter:card" content="summary" data-rh="true"><meta name="twitter:title" content="Rahat Anjum - Profile | Tableau Public" data-rh="true"><meta name="twitter:description" content="Rahat Anjum&#39;s Tableau Public profile. View interactive data visualizations published by this author." data-rh="true"><meta name="twitter:image" content="data:image/png;base64,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" data-rh="true"><meta property="og:type" content="profile" data-rh="true"><meta property="og:profile:username" content="rahat.anjum" data-rh="true"></head><body class=""><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KWJLRPD" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><noscript>You need to enable JavaScript to run this app.</noscript><script src="./Profile - rahat.anjum _ Tableau Public_files/polyfill.min.js.download"></script><div id="root"><div class="app_app__aK5im"><header class="Header_header__OKWO7"><div class="Header_navBar__R6DIw"><div class="Header_left__AgymK"><button class="Header_menuButton__EC8-e" type="button" tabindex="0" aria-label="Open navigation menu" aria-haspopup="true" aria-expanded="false"><i aria-hidden="true"></i></button><a href="https://public.tableau.com/" class="Header_menuTitle__LVwJi" location="//public.tableau.com/"><img class="Header_logo__shVBB" alt="Logo" src="data:image/png;base64,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"></a></div><div class="Header_right__sCxx3"><div class="Header_horizontal__ncxq4 Header_menu__iSxy+"><a class="Header_menuLink__XQyg6" location="/discover" data-testid="Header-menuLink-discover" href="https://public.tableau.com/app/discover">Discover</a><a href="https://public.tableau.com/en-us/s/blog" class="Header_menuLink__XQyg6" location="//public.tableau.com/en-us/s/blog" data-testid="Header-menuLink-blog">Blog</a><a href="https://public.tableau.com/en-us/s/resources" class="Header_menuLink__XQyg6" location="//public.tableau.com/en-us/s/resources" data-testid="Header-menuLink-resources">Resources</a><a href="https://public.tableau.com/en-us/s/about" class="Header_menuLink__XQyg6" location="//public.tableau.com/en-us/s/about" data-testid="Header-menuLink-about">About</a><div role="button" class="Header_userAvatarButton__zvaXQ" aria-label="Toggle user options menu" tabindex="0" aria-haspopup="true" aria-expanded="false"><img class="Avatar_userAvatar__xn8Gf" src="data:image/png;base64,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" alt="rahat.anjum"></div></div><a location="/search/all" aria-label="Go to search" href="https://public.tableau.com/app/search/all"><i class="Header_searchIcon__YhKi0" aria-hidden="true"></i></a></div></div></header><div class="Toastify"></div><div class="app_content__gh+4b"><div data-testid="ProfileHeader"><div class="ProfileBanner_banner__c9x7P ProfileBanner_bg001__BHWPe"><img alt="" src="./Profile - rahat.anjum _ Tableau Public_files/blue.3368c2f312858e5bea183e8c0414e6d5.svg"></div><div class="ProfileHeader_headerGrid__SFDb2"><img class="Avatar_avatarImg__5lrOc" alt="avatar" src="data:image/png;base64,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"><label class="AvatarEdit_editLabel__0x+Xf" data-tip="Update profile picture" aria-labelledby="editAvatar-tooltip" data-for="editAvatar-tooltip" tabindex="0" currentitem="false"><input type="button"></label><div class="__react_component_tooltip t5f7d152e-63cf-4509-9489-31dfc3a1605f place-bottom type-dark" id="editAvatar-tooltip" data-id="tooltip"><style aria-hidden="true">
+  	.t5f7d152e-63cf-4509-9489-31dfc3a1605f {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t5f7d152e-63cf-4509-9489-31dfc3a1605f.place-top {
+        margin-top: -10px;
+    }
+    .t5f7d152e-63cf-4509-9489-31dfc3a1605f.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t5f7d152e-63cf-4509-9489-31dfc3a1605f.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t5f7d152e-63cf-4509-9489-31dfc3a1605f.place-bottom {
+        margin-top: 10px;
+    }
+    .t5f7d152e-63cf-4509-9489-31dfc3a1605f.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t5f7d152e-63cf-4509-9489-31dfc3a1605f.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t5f7d152e-63cf-4509-9489-31dfc3a1605f.place-left {
+        margin-left: -10px;
+    }
+    .t5f7d152e-63cf-4509-9489-31dfc3a1605f.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t5f7d152e-63cf-4509-9489-31dfc3a1605f.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t5f7d152e-63cf-4509-9489-31dfc3a1605f.place-right {
+        margin-left: 10px;
+    }
+    .t5f7d152e-63cf-4509-9489-31dfc3a1605f.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t5f7d152e-63cf-4509-9489-31dfc3a1605f.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><div class="WebsiteLinks_container__UN5DL"></div></div><div class="ProfileHeader_headerGrid__SFDb2"><div><h1 class="ProfileHeader_nameTitle__2wYwF">Rahat Anjum</h1><p class="ProfileHeader_locationText__BoWr1"></p><div class="ProfileHeader_bioText__1j1hg"><div></div></div><button type="button" class="Button_editButton__Sc4b0">Edit Profile</button></div></div></div><div class="ProfileNav_container__Qb+rb"><button aria-current="true" class="ProfileNav_navItem__N-Hk4 ProfileNav_active__fJ8kc" type="button" data-testid="ProfileNav-navItem-vizzes"><div class="ProfileNav_navOptionContent__xqAKI"><span class="ProfileNav_label__89JWF">Vizzes</span><span class="ProfileNav_count__SvJ3p">12</span></div><div class="ProfileNav_underline__TyEfg"></div></button><button aria-current="false" class="ProfileNav_navItem__N-Hk4" type="button" data-testid="ProfileNav-navItem-favorites"><div class="ProfileNav_navOptionContent__xqAKI"><span class="ProfileNav_label__89JWF">Favorites</span><span class="ProfileNav_count__SvJ3p">0</span></div><div class="ProfileNav_underline__TyEfg"></div></button><button aria-current="false" class="ProfileNav_navItem__N-Hk4" type="button" data-testid="ProfileNav-navItem-following"><div class="ProfileNav_navOptionContent__xqAKI"><span class="ProfileNav_label__89JWF">Following</span><span class="ProfileNav_count__SvJ3p">0</span></div><div class="ProfileNav_underline__TyEfg"></div></button><button aria-current="false" class="ProfileNav_navItem__N-Hk4" type="button" data-testid="ProfileNav-navItem-followers"><div class="ProfileNav_navOptionContent__xqAKI"><span class="ProfileNav_label__89JWF">Followers</span><span class="ProfileNav_count__SvJ3p">0</span></div><div class="ProfileNav_underline__TyEfg"></div></button><a class="ProfileNav_createVizButton__Tka51" href="https://public.tableau.com/newWorkbook/c03918b2-9284-4760-ad68-e6483840b937">Create a Viz</a></div><div class="ProfileHome_content__llGpj"><div class="ProfileHome_contentWrap__N-kra"><div class="WorkbookList_workbookList__olDsK"><div class="infinite-scroll-component__outerdiv"><div class="infinite-scroll-component " style="height: auto; overflow: auto;"><div class="WorkbookList_workbookGrid__eMKPr"><div class="WorkbookList_workbookGridItem__2SKsw" data-testid="WorkbookList-workbookGridItem"><div class="VizCard_container__VGf0Z"><a location="/profile/rahat.anjum/viz/Book10_16492636950860/Dashboard3" class="VizCard_thumbnailLink__Vvuvn" href="https://public.tableau.com/app/profile/rahat.anjum/viz/Book10_16492636950860/Dashboard3"><img class="VizCard_thumbnail__F0ISM" src="./Profile - rahat.anjum _ Tableau Public_files/4_3.png" alt="Workbook thumbnail: Book10"></a><div class="VizCard_upper__BCDMx"><a location="/profile/rahat.anjum/viz/Book10_16492636950860/Dashboard3" class="VizCard_title__s0b6S" href="https://public.tableau.com/app/profile/rahat.anjum/viz/Book10_16492636950860/Dashboard3">Book10</a><a location="/profile/rahat.anjum" class="VizCard_author__PWeL1" href="https://public.tableau.com/app/profile/rahat.anjum">Rahat Anjum</a></div><div class="VizCard_lower__qGaOW"><div class="VizCard_vizStats__9rYQ4" data-testid="VizCard-vizStats"><button class="Favorite_favoriteCount__MfM0u" data-testid="favorite-button" type="button" aria-checked="false" role="checkbox" tabindex="0" data-tip="Add Favorite" aria-label="Add Favorite" data-for="favoriteIcon-tooltip-Book10_16492636950860" currentitem="false"><i class="Favorite_favoriteUnselectedIcon__wVivj button_button__WpmSL"></i>0</button><div class="__react_component_tooltip tb43ee49e-b131-4076-b8a3-bb261e066121 place-bottom type-dark" id="favoriteIcon-tooltip-Book10_16492636950860" data-id="tooltip"><style aria-hidden="true">
+  	.tb43ee49e-b131-4076-b8a3-bb261e066121 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.tb43ee49e-b131-4076-b8a3-bb261e066121.place-top {
+        margin-top: -10px;
+    }
+    .tb43ee49e-b131-4076-b8a3-bb261e066121.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .tb43ee49e-b131-4076-b8a3-bb261e066121.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .tb43ee49e-b131-4076-b8a3-bb261e066121.place-bottom {
+        margin-top: 10px;
+    }
+    .tb43ee49e-b131-4076-b8a3-bb261e066121.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .tb43ee49e-b131-4076-b8a3-bb261e066121.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .tb43ee49e-b131-4076-b8a3-bb261e066121.place-left {
+        margin-left: -10px;
+    }
+    .tb43ee49e-b131-4076-b8a3-bb261e066121.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .tb43ee49e-b131-4076-b8a3-bb261e066121.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .tb43ee49e-b131-4076-b8a3-bb261e066121.place-right {
+        margin-left: 10px;
+    }
+    .tb43ee49e-b131-4076-b8a3-bb261e066121.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .tb43ee49e-b131-4076-b8a3-bb261e066121.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><span class="ViewCount_viewCount__fnCQf" data-tip="4 Views" aria-label="4 Views" data-for="viewCount-tooltip-Book10_16492636950860" tabindex="0" currentitem="false"><i class="ViewCount_viewCountIcon__bIM1B" data-testid="view-count-icon"></i>4</span><div class="__react_component_tooltip t0187f8fa-8799-4b46-821f-0fc26a51f740 place-bottom type-dark" id="viewCount-tooltip-Book10_16492636950860" data-id="tooltip"><style aria-hidden="true">
+  	.t0187f8fa-8799-4b46-821f-0fc26a51f740 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t0187f8fa-8799-4b46-821f-0fc26a51f740.place-top {
+        margin-top: -10px;
+    }
+    .t0187f8fa-8799-4b46-821f-0fc26a51f740.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t0187f8fa-8799-4b46-821f-0fc26a51f740.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t0187f8fa-8799-4b46-821f-0fc26a51f740.place-bottom {
+        margin-top: 10px;
+    }
+    .t0187f8fa-8799-4b46-821f-0fc26a51f740.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t0187f8fa-8799-4b46-821f-0fc26a51f740.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t0187f8fa-8799-4b46-821f-0fc26a51f740.place-left {
+        margin-left: -10px;
+    }
+    .t0187f8fa-8799-4b46-821f-0fc26a51f740.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t0187f8fa-8799-4b46-821f-0fc26a51f740.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t0187f8fa-8799-4b46-821f-0fc26a51f740.place-right {
+        margin-left: 10px;
+    }
+    .t0187f8fa-8799-4b46-821f-0fc26a51f740.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t0187f8fa-8799-4b46-821f-0fc26a51f740.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div></div><div aria-expanded="false" aria-haspopup="true" aria-label="More Actions" data-tip="More Actions" data-for="vizmenu-tooltip-Book10_16492636950860" class="VizCard_popoverMenuButton__YJXqB button_button__WpmSL" role="button" tabindex="0" data-testid="menu-button" currentitem="false"><i aria-hidden="true" class="VizCard_menuIcon__3X-WJ"></i></div><div class="__react_component_tooltip tc8d42eaa-d2a0-4c61-a6ad-2a35eb0b55ae place-bottom type-dark" id="vizmenu-tooltip-Book10_16492636950860" data-id="tooltip"><style aria-hidden="true">
+  	.tc8d42eaa-d2a0-4c61-a6ad-2a35eb0b55ae {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.tc8d42eaa-d2a0-4c61-a6ad-2a35eb0b55ae.place-top {
+        margin-top: -10px;
+    }
+    .tc8d42eaa-d2a0-4c61-a6ad-2a35eb0b55ae.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .tc8d42eaa-d2a0-4c61-a6ad-2a35eb0b55ae.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .tc8d42eaa-d2a0-4c61-a6ad-2a35eb0b55ae.place-bottom {
+        margin-top: 10px;
+    }
+    .tc8d42eaa-d2a0-4c61-a6ad-2a35eb0b55ae.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .tc8d42eaa-d2a0-4c61-a6ad-2a35eb0b55ae.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .tc8d42eaa-d2a0-4c61-a6ad-2a35eb0b55ae.place-left {
+        margin-left: -10px;
+    }
+    .tc8d42eaa-d2a0-4c61-a6ad-2a35eb0b55ae.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .tc8d42eaa-d2a0-4c61-a6ad-2a35eb0b55ae.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .tc8d42eaa-d2a0-4c61-a6ad-2a35eb0b55ae.place-right {
+        margin-left: 10px;
+    }
+    .tc8d42eaa-d2a0-4c61-a6ad-2a35eb0b55ae.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .tc8d42eaa-d2a0-4c61-a6ad-2a35eb0b55ae.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><div aria-expanded="false" aria-haspopup="true" aria-label="More Actions" class="VizCard_bottomPanelMenuButton__BH+i4 button_button__WpmSL" role="button" tabindex="0"><i aria-hidden="true" class="VizCard_menuIcon__3X-WJ"></i></div></div></div></div><div class="WorkbookList_workbookGridItem__2SKsw" data-testid="WorkbookList-workbookGridItem"><div class="VizCard_container__VGf0Z"><a location="/profile/rahat.anjum/viz/covidcassesanalysis/Dashboard1" class="VizCard_thumbnailLink__Vvuvn" href="https://public.tableau.com/app/profile/rahat.anjum/viz/covidcassesanalysis/Dashboard1"><img class="VizCard_thumbnail__F0ISM" src="./Profile - rahat.anjum _ Tableau Public_files/4_3(1).png" alt="Workbook thumbnail: covid casses analysis"></a><div class="VizCard_upper__BCDMx"><a location="/profile/rahat.anjum/viz/covidcassesanalysis/Dashboard1" class="VizCard_title__s0b6S" href="https://public.tableau.com/app/profile/rahat.anjum/viz/covidcassesanalysis/Dashboard1">covid casses analysis</a><a location="/profile/rahat.anjum" class="VizCard_author__PWeL1" href="https://public.tableau.com/app/profile/rahat.anjum">Rahat Anjum</a></div><div class="VizCard_lower__qGaOW"><div class="VizCard_vizStats__9rYQ4" data-testid="VizCard-vizStats"><button class="Favorite_favoriteCount__MfM0u" data-testid="favorite-button" type="button" aria-checked="false" role="checkbox" tabindex="0" data-tip="Add Favorite" aria-label="Add Favorite" data-for="favoriteIcon-tooltip-covidcassesanalysis" currentitem="false"><i class="Favorite_favoriteUnselectedIcon__wVivj button_button__WpmSL"></i>0</button><div class="__react_component_tooltip t26d3952b-b183-47b7-beb1-0061ab22db82 place-bottom type-dark" id="favoriteIcon-tooltip-covidcassesanalysis" data-id="tooltip"><style aria-hidden="true">
+  	.t26d3952b-b183-47b7-beb1-0061ab22db82 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t26d3952b-b183-47b7-beb1-0061ab22db82.place-top {
+        margin-top: -10px;
+    }
+    .t26d3952b-b183-47b7-beb1-0061ab22db82.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t26d3952b-b183-47b7-beb1-0061ab22db82.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t26d3952b-b183-47b7-beb1-0061ab22db82.place-bottom {
+        margin-top: 10px;
+    }
+    .t26d3952b-b183-47b7-beb1-0061ab22db82.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t26d3952b-b183-47b7-beb1-0061ab22db82.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t26d3952b-b183-47b7-beb1-0061ab22db82.place-left {
+        margin-left: -10px;
+    }
+    .t26d3952b-b183-47b7-beb1-0061ab22db82.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t26d3952b-b183-47b7-beb1-0061ab22db82.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t26d3952b-b183-47b7-beb1-0061ab22db82.place-right {
+        margin-left: 10px;
+    }
+    .t26d3952b-b183-47b7-beb1-0061ab22db82.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t26d3952b-b183-47b7-beb1-0061ab22db82.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><span class="ViewCount_viewCount__fnCQf" data-tip="5 Views" aria-label="5 Views" data-for="viewCount-tooltip-covidcassesanalysis" tabindex="0" currentitem="false"><i class="ViewCount_viewCountIcon__bIM1B" data-testid="view-count-icon"></i>5</span><div class="__react_component_tooltip tf44ae134-601e-46e4-b1bd-4326fabb907a place-bottom type-dark" id="viewCount-tooltip-covidcassesanalysis" data-id="tooltip"><style aria-hidden="true">
+  	.tf44ae134-601e-46e4-b1bd-4326fabb907a {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.tf44ae134-601e-46e4-b1bd-4326fabb907a.place-top {
+        margin-top: -10px;
+    }
+    .tf44ae134-601e-46e4-b1bd-4326fabb907a.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .tf44ae134-601e-46e4-b1bd-4326fabb907a.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .tf44ae134-601e-46e4-b1bd-4326fabb907a.place-bottom {
+        margin-top: 10px;
+    }
+    .tf44ae134-601e-46e4-b1bd-4326fabb907a.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .tf44ae134-601e-46e4-b1bd-4326fabb907a.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .tf44ae134-601e-46e4-b1bd-4326fabb907a.place-left {
+        margin-left: -10px;
+    }
+    .tf44ae134-601e-46e4-b1bd-4326fabb907a.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .tf44ae134-601e-46e4-b1bd-4326fabb907a.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .tf44ae134-601e-46e4-b1bd-4326fabb907a.place-right {
+        margin-left: 10px;
+    }
+    .tf44ae134-601e-46e4-b1bd-4326fabb907a.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .tf44ae134-601e-46e4-b1bd-4326fabb907a.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div></div><div aria-expanded="false" aria-haspopup="true" aria-label="More Actions" data-tip="More Actions" data-for="vizmenu-tooltip-covidcassesanalysis" class="VizCard_popoverMenuButton__YJXqB button_button__WpmSL" role="button" tabindex="0" data-testid="menu-button" currentitem="false"><i aria-hidden="true" class="VizCard_menuIcon__3X-WJ"></i></div><div class="__react_component_tooltip t19f0addd-fe06-4115-abdf-07ff455525f4 place-bottom type-dark" id="vizmenu-tooltip-covidcassesanalysis" data-id="tooltip"><style aria-hidden="true">
+  	.t19f0addd-fe06-4115-abdf-07ff455525f4 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t19f0addd-fe06-4115-abdf-07ff455525f4.place-top {
+        margin-top: -10px;
+    }
+    .t19f0addd-fe06-4115-abdf-07ff455525f4.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t19f0addd-fe06-4115-abdf-07ff455525f4.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t19f0addd-fe06-4115-abdf-07ff455525f4.place-bottom {
+        margin-top: 10px;
+    }
+    .t19f0addd-fe06-4115-abdf-07ff455525f4.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t19f0addd-fe06-4115-abdf-07ff455525f4.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t19f0addd-fe06-4115-abdf-07ff455525f4.place-left {
+        margin-left: -10px;
+    }
+    .t19f0addd-fe06-4115-abdf-07ff455525f4.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t19f0addd-fe06-4115-abdf-07ff455525f4.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t19f0addd-fe06-4115-abdf-07ff455525f4.place-right {
+        margin-left: 10px;
+    }
+    .t19f0addd-fe06-4115-abdf-07ff455525f4.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t19f0addd-fe06-4115-abdf-07ff455525f4.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><div aria-expanded="false" aria-haspopup="true" aria-label="More Actions" class="VizCard_bottomPanelMenuButton__BH+i4 button_button__WpmSL" role="button" tabindex="0"><i aria-hidden="true" class="VizCard_menuIcon__3X-WJ"></i></div></div></div></div><div class="WorkbookList_workbookGridItem__2SKsw" data-testid="WorkbookList-workbookGridItem"><div class="VizCard_container__VGf0Z"><a location="/profile/rahat.anjum/viz/Dashboard_16493478425150/Dashboard1" class="VizCard_thumbnailLink__Vvuvn" href="https://public.tableau.com/app/profile/rahat.anjum/viz/Dashboard_16493478425150/Dashboard1"><img class="VizCard_thumbnail__F0ISM" src="./Profile - rahat.anjum _ Tableau Public_files/4_3(2).png" alt="Workbook thumbnail: Dash board"></a><div class="VizCard_upper__BCDMx"><a location="/profile/rahat.anjum/viz/Dashboard_16493478425150/Dashboard1" class="VizCard_title__s0b6S" href="https://public.tableau.com/app/profile/rahat.anjum/viz/Dashboard_16493478425150/Dashboard1">Dash board</a><a location="/profile/rahat.anjum" class="VizCard_author__PWeL1" href="https://public.tableau.com/app/profile/rahat.anjum">Rahat Anjum</a></div><div class="VizCard_lower__qGaOW"><div class="VizCard_vizStats__9rYQ4" data-testid="VizCard-vizStats"><button class="Favorite_favoriteCount__MfM0u" data-testid="favorite-button" type="button" aria-checked="false" role="checkbox" tabindex="0" data-tip="Add Favorite" aria-label="Add Favorite" data-for="favoriteIcon-tooltip-Dashboard_16493478425150" currentitem="false"><i class="Favorite_favoriteUnselectedIcon__wVivj button_button__WpmSL"></i>0</button><div class="__react_component_tooltip t57ff1a65-c0fe-4852-9a87-d241fee5fbd8 place-bottom type-dark" id="favoriteIcon-tooltip-Dashboard_16493478425150" data-id="tooltip"><style aria-hidden="true">
+  	.t57ff1a65-c0fe-4852-9a87-d241fee5fbd8 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t57ff1a65-c0fe-4852-9a87-d241fee5fbd8.place-top {
+        margin-top: -10px;
+    }
+    .t57ff1a65-c0fe-4852-9a87-d241fee5fbd8.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t57ff1a65-c0fe-4852-9a87-d241fee5fbd8.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t57ff1a65-c0fe-4852-9a87-d241fee5fbd8.place-bottom {
+        margin-top: 10px;
+    }
+    .t57ff1a65-c0fe-4852-9a87-d241fee5fbd8.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t57ff1a65-c0fe-4852-9a87-d241fee5fbd8.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t57ff1a65-c0fe-4852-9a87-d241fee5fbd8.place-left {
+        margin-left: -10px;
+    }
+    .t57ff1a65-c0fe-4852-9a87-d241fee5fbd8.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t57ff1a65-c0fe-4852-9a87-d241fee5fbd8.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t57ff1a65-c0fe-4852-9a87-d241fee5fbd8.place-right {
+        margin-left: 10px;
+    }
+    .t57ff1a65-c0fe-4852-9a87-d241fee5fbd8.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t57ff1a65-c0fe-4852-9a87-d241fee5fbd8.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><span class="ViewCount_viewCount__fnCQf" data-tip="8 Views" aria-label="8 Views" data-for="viewCount-tooltip-Dashboard_16493478425150" tabindex="0" currentitem="false"><i class="ViewCount_viewCountIcon__bIM1B" data-testid="view-count-icon"></i>8</span><div class="__react_component_tooltip tb654c34e-7463-43ce-93de-310e3de2fec4 place-bottom type-dark" id="viewCount-tooltip-Dashboard_16493478425150" data-id="tooltip"><style aria-hidden="true">
+  	.tb654c34e-7463-43ce-93de-310e3de2fec4 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.tb654c34e-7463-43ce-93de-310e3de2fec4.place-top {
+        margin-top: -10px;
+    }
+    .tb654c34e-7463-43ce-93de-310e3de2fec4.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .tb654c34e-7463-43ce-93de-310e3de2fec4.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .tb654c34e-7463-43ce-93de-310e3de2fec4.place-bottom {
+        margin-top: 10px;
+    }
+    .tb654c34e-7463-43ce-93de-310e3de2fec4.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .tb654c34e-7463-43ce-93de-310e3de2fec4.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .tb654c34e-7463-43ce-93de-310e3de2fec4.place-left {
+        margin-left: -10px;
+    }
+    .tb654c34e-7463-43ce-93de-310e3de2fec4.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .tb654c34e-7463-43ce-93de-310e3de2fec4.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .tb654c34e-7463-43ce-93de-310e3de2fec4.place-right {
+        margin-left: 10px;
+    }
+    .tb654c34e-7463-43ce-93de-310e3de2fec4.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .tb654c34e-7463-43ce-93de-310e3de2fec4.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div></div><div aria-expanded="false" aria-haspopup="true" aria-label="More Actions" data-tip="More Actions" data-for="vizmenu-tooltip-Dashboard_16493478425150" class="VizCard_popoverMenuButton__YJXqB button_button__WpmSL" role="button" tabindex="0" data-testid="menu-button" currentitem="true"><i aria-hidden="true" class="VizCard_menuIcon__3X-WJ"></i></div><div class="__react_component_tooltip tc11f6345-c226-43f4-baa4-e8197e0a7843 border place-top type-custom Tooltip_tooltip__BYrDh" id="vizmenu-tooltip-Dashboard_16493478425150" data-id="tooltip" style="left: 858px; top: 521px;"><style aria-hidden="true">
+  	.tc11f6345-c226-43f4-baa4-e8197e0a7843 {
+	    color: #292b2c;
+	    background: #fff;
+	    border: 1px solid #d4d4d4;
+  	}
+
+  	.tc11f6345-c226-43f4-baa4-e8197e0a7843.place-top {
+        margin-top: -10px;
+    }
+    .tc11f6345-c226-43f4-baa4-e8197e0a7843.place-top::before {
+        border-top: 8px solid #d4d4d4;
+    }
+    .tc11f6345-c226-43f4-baa4-e8197e0a7843.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: transparent;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .tc11f6345-c226-43f4-baa4-e8197e0a7843.place-bottom {
+        margin-top: 10px;
+    }
+    .tc11f6345-c226-43f4-baa4-e8197e0a7843.place-bottom::before {
+        border-bottom: 8px solid #d4d4d4;
+    }
+    .tc11f6345-c226-43f4-baa4-e8197e0a7843.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: transparent;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .tc11f6345-c226-43f4-baa4-e8197e0a7843.place-left {
+        margin-left: -10px;
+    }
+    .tc11f6345-c226-43f4-baa4-e8197e0a7843.place-left::before {
+        border-left: 8px solid #d4d4d4;
+    }
+    .tc11f6345-c226-43f4-baa4-e8197e0a7843.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .tc11f6345-c226-43f4-baa4-e8197e0a7843.place-right {
+        margin-left: 10px;
+    }
+    .tc11f6345-c226-43f4-baa4-e8197e0a7843.place-right::before {
+        border-right: 8px solid #d4d4d4;
+    }
+    .tc11f6345-c226-43f4-baa4-e8197e0a7843.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style>More Actions</div><div aria-expanded="false" aria-haspopup="true" aria-label="More Actions" class="VizCard_bottomPanelMenuButton__BH+i4 button_button__WpmSL" role="button" tabindex="0"><i aria-hidden="true" class="VizCard_menuIcon__3X-WJ"></i></div></div></div></div><div class="WorkbookList_workbookGridItem__2SKsw" data-testid="WorkbookList-workbookGridItem"><div class="VizCard_container__VGf0Z"><a location="/profile/rahat.anjum/viz/Book9_16492636622300/payloadtypeandorbit" class="VizCard_thumbnailLink__Vvuvn" href="https://public.tableau.com/app/profile/rahat.anjum/viz/Book9_16492636622300/payloadtypeandorbit"><img class="VizCard_thumbnail__F0ISM" src="./Profile - rahat.anjum _ Tableau Public_files/4_3(3).png" alt="Workbook thumbnail: Book9"></a><div class="VizCard_upper__BCDMx"><a location="/profile/rahat.anjum/viz/Book9_16492636622300/payloadtypeandorbit" class="VizCard_title__s0b6S" href="https://public.tableau.com/app/profile/rahat.anjum/viz/Book9_16492636622300/payloadtypeandorbit">Book9</a><a location="/profile/rahat.anjum" class="VizCard_author__PWeL1" href="https://public.tableau.com/app/profile/rahat.anjum">Rahat Anjum</a></div><div class="VizCard_lower__qGaOW"><div class="VizCard_vizStats__9rYQ4" data-testid="VizCard-vizStats"><button class="Favorite_favoriteCount__MfM0u" data-testid="favorite-button" type="button" aria-checked="false" role="checkbox" tabindex="0" data-tip="Add Favorite" aria-label="Add Favorite" data-for="favoriteIcon-tooltip-Book9_16492636622300" currentitem="true"><i class="Favorite_favoriteUnselectedIcon__wVivj button_button__WpmSL"></i>0</button><div class="__react_component_tooltip t7cad16ad-623e-42a7-99cb-7d826b5f674b border place-top type-custom Tooltip_tooltip__BYrDh" id="favoriteIcon-tooltip-Book9_16492636622300" data-id="tooltip" style="left: 956px; top: 524px;"><style aria-hidden="true">
+  	.t7cad16ad-623e-42a7-99cb-7d826b5f674b {
+	    color: #292b2c;
+	    background: #fff;
+	    border: 1px solid #d4d4d4;
+  	}
+
+  	.t7cad16ad-623e-42a7-99cb-7d826b5f674b.place-top {
+        margin-top: -10px;
+    }
+    .t7cad16ad-623e-42a7-99cb-7d826b5f674b.place-top::before {
+        border-top: 8px solid #d4d4d4;
+    }
+    .t7cad16ad-623e-42a7-99cb-7d826b5f674b.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: transparent;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t7cad16ad-623e-42a7-99cb-7d826b5f674b.place-bottom {
+        margin-top: 10px;
+    }
+    .t7cad16ad-623e-42a7-99cb-7d826b5f674b.place-bottom::before {
+        border-bottom: 8px solid #d4d4d4;
+    }
+    .t7cad16ad-623e-42a7-99cb-7d826b5f674b.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: transparent;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t7cad16ad-623e-42a7-99cb-7d826b5f674b.place-left {
+        margin-left: -10px;
+    }
+    .t7cad16ad-623e-42a7-99cb-7d826b5f674b.place-left::before {
+        border-left: 8px solid #d4d4d4;
+    }
+    .t7cad16ad-623e-42a7-99cb-7d826b5f674b.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t7cad16ad-623e-42a7-99cb-7d826b5f674b.place-right {
+        margin-left: 10px;
+    }
+    .t7cad16ad-623e-42a7-99cb-7d826b5f674b.place-right::before {
+        border-right: 8px solid #d4d4d4;
+    }
+    .t7cad16ad-623e-42a7-99cb-7d826b5f674b.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style>Add Favorite</div><span class="ViewCount_viewCount__fnCQf" data-tip="4 Views" aria-label="4 Views" data-for="viewCount-tooltip-Book9_16492636622300" tabindex="0" currentitem="false"><i class="ViewCount_viewCountIcon__bIM1B" data-testid="view-count-icon"></i>4</span><div class="__react_component_tooltip tbd78fcad-2f34-4785-82cc-7ac90be5f7d7 place-bottom type-dark" id="viewCount-tooltip-Book9_16492636622300" data-id="tooltip"><style aria-hidden="true">
+  	.tbd78fcad-2f34-4785-82cc-7ac90be5f7d7 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.tbd78fcad-2f34-4785-82cc-7ac90be5f7d7.place-top {
+        margin-top: -10px;
+    }
+    .tbd78fcad-2f34-4785-82cc-7ac90be5f7d7.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .tbd78fcad-2f34-4785-82cc-7ac90be5f7d7.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .tbd78fcad-2f34-4785-82cc-7ac90be5f7d7.place-bottom {
+        margin-top: 10px;
+    }
+    .tbd78fcad-2f34-4785-82cc-7ac90be5f7d7.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .tbd78fcad-2f34-4785-82cc-7ac90be5f7d7.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .tbd78fcad-2f34-4785-82cc-7ac90be5f7d7.place-left {
+        margin-left: -10px;
+    }
+    .tbd78fcad-2f34-4785-82cc-7ac90be5f7d7.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .tbd78fcad-2f34-4785-82cc-7ac90be5f7d7.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .tbd78fcad-2f34-4785-82cc-7ac90be5f7d7.place-right {
+        margin-left: 10px;
+    }
+    .tbd78fcad-2f34-4785-82cc-7ac90be5f7d7.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .tbd78fcad-2f34-4785-82cc-7ac90be5f7d7.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div></div><div aria-expanded="false" aria-haspopup="true" aria-label="More Actions" data-tip="More Actions" data-for="vizmenu-tooltip-Book9_16492636622300" class="VizCard_popoverMenuButton__YJXqB button_button__WpmSL" role="button" tabindex="0" data-testid="menu-button" currentitem="false"><i aria-hidden="true" class="VizCard_menuIcon__3X-WJ"></i></div><div class="__react_component_tooltip tf69288dc-df43-460c-95c9-1d0ccc1797a8 place-bottom type-dark" id="vizmenu-tooltip-Book9_16492636622300" data-id="tooltip"><style aria-hidden="true">
+  	.tf69288dc-df43-460c-95c9-1d0ccc1797a8 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.tf69288dc-df43-460c-95c9-1d0ccc1797a8.place-top {
+        margin-top: -10px;
+    }
+    .tf69288dc-df43-460c-95c9-1d0ccc1797a8.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .tf69288dc-df43-460c-95c9-1d0ccc1797a8.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .tf69288dc-df43-460c-95c9-1d0ccc1797a8.place-bottom {
+        margin-top: 10px;
+    }
+    .tf69288dc-df43-460c-95c9-1d0ccc1797a8.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .tf69288dc-df43-460c-95c9-1d0ccc1797a8.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .tf69288dc-df43-460c-95c9-1d0ccc1797a8.place-left {
+        margin-left: -10px;
+    }
+    .tf69288dc-df43-460c-95c9-1d0ccc1797a8.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .tf69288dc-df43-460c-95c9-1d0ccc1797a8.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .tf69288dc-df43-460c-95c9-1d0ccc1797a8.place-right {
+        margin-left: 10px;
+    }
+    .tf69288dc-df43-460c-95c9-1d0ccc1797a8.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .tf69288dc-df43-460c-95c9-1d0ccc1797a8.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><div aria-expanded="false" aria-haspopup="true" aria-label="More Actions" class="VizCard_bottomPanelMenuButton__BH+i4 button_button__WpmSL" role="button" tabindex="0"><i aria-hidden="true" class="VizCard_menuIcon__3X-WJ"></i></div></div></div></div><div class="WorkbookList_workbookGridItem__2SKsw" data-testid="WorkbookList-workbookGridItem"><div class="VizCard_container__VGf0Z"><a location="/profile/rahat.anjum/viz/Book8_16492636100400/compaiesrocketheightandmissions" class="VizCard_thumbnailLink__Vvuvn" href="https://public.tableau.com/app/profile/rahat.anjum/viz/Book8_16492636100400/compaiesrocketheightandmissions"><img class="VizCard_thumbnail__F0ISM" src="./Profile - rahat.anjum _ Tableau Public_files/4_3(4).png" alt="Workbook thumbnail: Book8"></a><div class="VizCard_upper__BCDMx"><a location="/profile/rahat.anjum/viz/Book8_16492636100400/compaiesrocketheightandmissions" class="VizCard_title__s0b6S" href="https://public.tableau.com/app/profile/rahat.anjum/viz/Book8_16492636100400/compaiesrocketheightandmissions">Book8</a><a location="/profile/rahat.anjum" class="VizCard_author__PWeL1" href="https://public.tableau.com/app/profile/rahat.anjum">Rahat Anjum</a></div><div class="VizCard_lower__qGaOW"><div class="VizCard_vizStats__9rYQ4" data-testid="VizCard-vizStats"><button class="Favorite_favoriteCount__MfM0u" data-testid="favorite-button" type="button" aria-checked="false" role="checkbox" tabindex="0" data-tip="Add Favorite" aria-label="Add Favorite" data-for="favoriteIcon-tooltip-Book8_16492636100400" currentitem="false"><i class="Favorite_favoriteUnselectedIcon__wVivj button_button__WpmSL"></i>0</button><div class="__react_component_tooltip t8c411eb1-4ebf-4625-ba95-fb9c8ba79fef place-bottom type-dark" id="favoriteIcon-tooltip-Book8_16492636100400" data-id="tooltip"><style aria-hidden="true">
+  	.t8c411eb1-4ebf-4625-ba95-fb9c8ba79fef {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t8c411eb1-4ebf-4625-ba95-fb9c8ba79fef.place-top {
+        margin-top: -10px;
+    }
+    .t8c411eb1-4ebf-4625-ba95-fb9c8ba79fef.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t8c411eb1-4ebf-4625-ba95-fb9c8ba79fef.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t8c411eb1-4ebf-4625-ba95-fb9c8ba79fef.place-bottom {
+        margin-top: 10px;
+    }
+    .t8c411eb1-4ebf-4625-ba95-fb9c8ba79fef.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t8c411eb1-4ebf-4625-ba95-fb9c8ba79fef.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t8c411eb1-4ebf-4625-ba95-fb9c8ba79fef.place-left {
+        margin-left: -10px;
+    }
+    .t8c411eb1-4ebf-4625-ba95-fb9c8ba79fef.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t8c411eb1-4ebf-4625-ba95-fb9c8ba79fef.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t8c411eb1-4ebf-4625-ba95-fb9c8ba79fef.place-right {
+        margin-left: 10px;
+    }
+    .t8c411eb1-4ebf-4625-ba95-fb9c8ba79fef.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t8c411eb1-4ebf-4625-ba95-fb9c8ba79fef.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><span class="ViewCount_viewCount__fnCQf" data-tip="4 Views" aria-label="4 Views" data-for="viewCount-tooltip-Book8_16492636100400" tabindex="0" currentitem="false"><i class="ViewCount_viewCountIcon__bIM1B" data-testid="view-count-icon"></i>4</span><div class="__react_component_tooltip t1186fa74-4ef5-48d3-af45-40862dcc77c1 place-bottom type-dark" id="viewCount-tooltip-Book8_16492636100400" data-id="tooltip"><style aria-hidden="true">
+  	.t1186fa74-4ef5-48d3-af45-40862dcc77c1 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t1186fa74-4ef5-48d3-af45-40862dcc77c1.place-top {
+        margin-top: -10px;
+    }
+    .t1186fa74-4ef5-48d3-af45-40862dcc77c1.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t1186fa74-4ef5-48d3-af45-40862dcc77c1.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t1186fa74-4ef5-48d3-af45-40862dcc77c1.place-bottom {
+        margin-top: 10px;
+    }
+    .t1186fa74-4ef5-48d3-af45-40862dcc77c1.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t1186fa74-4ef5-48d3-af45-40862dcc77c1.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t1186fa74-4ef5-48d3-af45-40862dcc77c1.place-left {
+        margin-left: -10px;
+    }
+    .t1186fa74-4ef5-48d3-af45-40862dcc77c1.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t1186fa74-4ef5-48d3-af45-40862dcc77c1.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t1186fa74-4ef5-48d3-af45-40862dcc77c1.place-right {
+        margin-left: 10px;
+    }
+    .t1186fa74-4ef5-48d3-af45-40862dcc77c1.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t1186fa74-4ef5-48d3-af45-40862dcc77c1.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div></div><div aria-expanded="false" aria-haspopup="true" aria-label="More Actions" data-tip="More Actions" data-for="vizmenu-tooltip-Book8_16492636100400" class="VizCard_popoverMenuButton__YJXqB button_button__WpmSL" role="button" tabindex="0" data-testid="menu-button" currentitem="false"><i aria-hidden="true" class="VizCard_menuIcon__3X-WJ"></i></div><div class="__react_component_tooltip t07c274f5-2bf1-4d57-9659-2124e7b00d69 place-bottom type-dark" id="vizmenu-tooltip-Book8_16492636100400" data-id="tooltip"><style aria-hidden="true">
+  	.t07c274f5-2bf1-4d57-9659-2124e7b00d69 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t07c274f5-2bf1-4d57-9659-2124e7b00d69.place-top {
+        margin-top: -10px;
+    }
+    .t07c274f5-2bf1-4d57-9659-2124e7b00d69.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t07c274f5-2bf1-4d57-9659-2124e7b00d69.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t07c274f5-2bf1-4d57-9659-2124e7b00d69.place-bottom {
+        margin-top: 10px;
+    }
+    .t07c274f5-2bf1-4d57-9659-2124e7b00d69.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t07c274f5-2bf1-4d57-9659-2124e7b00d69.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t07c274f5-2bf1-4d57-9659-2124e7b00d69.place-left {
+        margin-left: -10px;
+    }
+    .t07c274f5-2bf1-4d57-9659-2124e7b00d69.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t07c274f5-2bf1-4d57-9659-2124e7b00d69.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t07c274f5-2bf1-4d57-9659-2124e7b00d69.place-right {
+        margin-left: 10px;
+    }
+    .t07c274f5-2bf1-4d57-9659-2124e7b00d69.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t07c274f5-2bf1-4d57-9659-2124e7b00d69.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><div aria-expanded="false" aria-haspopup="true" aria-label="More Actions" class="VizCard_bottomPanelMenuButton__BH+i4 button_button__WpmSL" role="button" tabindex="0"><i aria-hidden="true" class="VizCard_menuIcon__3X-WJ"></i></div></div></div></div><div class="WorkbookList_workbookGridItem__2SKsw" data-testid="WorkbookList-workbookGridItem"><div class="VizCard_container__VGf0Z"><a location="/profile/rahat.anjum/viz/Book7_16492634715870/companiesmissionstatus" class="VizCard_thumbnailLink__Vvuvn" href="https://public.tableau.com/app/profile/rahat.anjum/viz/Book7_16492634715870/companiesmissionstatus"><img class="VizCard_thumbnail__F0ISM" src="./Profile - rahat.anjum _ Tableau Public_files/4_3(5).png" alt="Workbook thumbnail: Book7"></a><div class="VizCard_upper__BCDMx"><a location="/profile/rahat.anjum/viz/Book7_16492634715870/companiesmissionstatus" class="VizCard_title__s0b6S" href="https://public.tableau.com/app/profile/rahat.anjum/viz/Book7_16492634715870/companiesmissionstatus">Book7</a><a location="/profile/rahat.anjum" class="VizCard_author__PWeL1" href="https://public.tableau.com/app/profile/rahat.anjum">Rahat Anjum</a></div><div class="VizCard_lower__qGaOW"><div class="VizCard_vizStats__9rYQ4" data-testid="VizCard-vizStats"><button class="Favorite_favoriteCount__MfM0u" data-testid="favorite-button" type="button" aria-checked="false" role="checkbox" tabindex="0" data-tip="Add Favorite" aria-label="Add Favorite" data-for="favoriteIcon-tooltip-Book7_16492634715870" currentitem="false"><i class="Favorite_favoriteUnselectedIcon__wVivj button_button__WpmSL"></i>0</button><div class="__react_component_tooltip t915c3759-11d3-4842-bcda-fe3032b156dc place-bottom type-dark" id="favoriteIcon-tooltip-Book7_16492634715870" data-id="tooltip"><style aria-hidden="true">
+  	.t915c3759-11d3-4842-bcda-fe3032b156dc {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t915c3759-11d3-4842-bcda-fe3032b156dc.place-top {
+        margin-top: -10px;
+    }
+    .t915c3759-11d3-4842-bcda-fe3032b156dc.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t915c3759-11d3-4842-bcda-fe3032b156dc.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t915c3759-11d3-4842-bcda-fe3032b156dc.place-bottom {
+        margin-top: 10px;
+    }
+    .t915c3759-11d3-4842-bcda-fe3032b156dc.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t915c3759-11d3-4842-bcda-fe3032b156dc.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t915c3759-11d3-4842-bcda-fe3032b156dc.place-left {
+        margin-left: -10px;
+    }
+    .t915c3759-11d3-4842-bcda-fe3032b156dc.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t915c3759-11d3-4842-bcda-fe3032b156dc.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t915c3759-11d3-4842-bcda-fe3032b156dc.place-right {
+        margin-left: 10px;
+    }
+    .t915c3759-11d3-4842-bcda-fe3032b156dc.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t915c3759-11d3-4842-bcda-fe3032b156dc.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><span class="ViewCount_viewCount__fnCQf" data-tip="4 Views" aria-label="4 Views" data-for="viewCount-tooltip-Book7_16492634715870" tabindex="0" currentitem="false"><i class="ViewCount_viewCountIcon__bIM1B" data-testid="view-count-icon"></i>4</span><div class="__react_component_tooltip t1fbaf170-2afc-4246-9bb1-a887eb02789b place-bottom type-dark" id="viewCount-tooltip-Book7_16492634715870" data-id="tooltip"><style aria-hidden="true">
+  	.t1fbaf170-2afc-4246-9bb1-a887eb02789b {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t1fbaf170-2afc-4246-9bb1-a887eb02789b.place-top {
+        margin-top: -10px;
+    }
+    .t1fbaf170-2afc-4246-9bb1-a887eb02789b.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t1fbaf170-2afc-4246-9bb1-a887eb02789b.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t1fbaf170-2afc-4246-9bb1-a887eb02789b.place-bottom {
+        margin-top: 10px;
+    }
+    .t1fbaf170-2afc-4246-9bb1-a887eb02789b.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t1fbaf170-2afc-4246-9bb1-a887eb02789b.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t1fbaf170-2afc-4246-9bb1-a887eb02789b.place-left {
+        margin-left: -10px;
+    }
+    .t1fbaf170-2afc-4246-9bb1-a887eb02789b.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t1fbaf170-2afc-4246-9bb1-a887eb02789b.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t1fbaf170-2afc-4246-9bb1-a887eb02789b.place-right {
+        margin-left: 10px;
+    }
+    .t1fbaf170-2afc-4246-9bb1-a887eb02789b.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t1fbaf170-2afc-4246-9bb1-a887eb02789b.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div></div><div aria-expanded="false" aria-haspopup="true" aria-label="More Actions" data-tip="More Actions" data-for="vizmenu-tooltip-Book7_16492634715870" class="VizCard_popoverMenuButton__YJXqB button_button__WpmSL" role="button" tabindex="0" data-testid="menu-button" currentitem="false"><i aria-hidden="true" class="VizCard_menuIcon__3X-WJ"></i></div><div class="__react_component_tooltip t08edd61f-dc86-46c8-9a03-485cb2fe87e7 place-bottom type-dark" id="vizmenu-tooltip-Book7_16492634715870" data-id="tooltip"><style aria-hidden="true">
+  	.t08edd61f-dc86-46c8-9a03-485cb2fe87e7 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t08edd61f-dc86-46c8-9a03-485cb2fe87e7.place-top {
+        margin-top: -10px;
+    }
+    .t08edd61f-dc86-46c8-9a03-485cb2fe87e7.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t08edd61f-dc86-46c8-9a03-485cb2fe87e7.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t08edd61f-dc86-46c8-9a03-485cb2fe87e7.place-bottom {
+        margin-top: 10px;
+    }
+    .t08edd61f-dc86-46c8-9a03-485cb2fe87e7.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t08edd61f-dc86-46c8-9a03-485cb2fe87e7.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t08edd61f-dc86-46c8-9a03-485cb2fe87e7.place-left {
+        margin-left: -10px;
+    }
+    .t08edd61f-dc86-46c8-9a03-485cb2fe87e7.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t08edd61f-dc86-46c8-9a03-485cb2fe87e7.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t08edd61f-dc86-46c8-9a03-485cb2fe87e7.place-right {
+        margin-left: 10px;
+    }
+    .t08edd61f-dc86-46c8-9a03-485cb2fe87e7.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t08edd61f-dc86-46c8-9a03-485cb2fe87e7.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><div aria-expanded="false" aria-haspopup="true" aria-label="More Actions" class="VizCard_bottomPanelMenuButton__BH+i4 button_button__WpmSL" role="button" tabindex="0"><i aria-hidden="true" class="VizCard_menuIcon__3X-WJ"></i></div></div></div></div><div class="WorkbookList_workbookGridItem__2SKsw" data-testid="WorkbookList-workbookGridItem"><div class="VizCard_container__VGf0Z"><a location="/profile/rahat.anjum/viz/Book6_16492634356060/companiesmissionStatusandpayloadtoorbit" class="VizCard_thumbnailLink__Vvuvn" href="https://public.tableau.com/app/profile/rahat.anjum/viz/Book6_16492634356060/companiesmissionStatusandpayloadtoorbit"><img class="VizCard_thumbnail__F0ISM" src="./Profile - rahat.anjum _ Tableau Public_files/4_3(6).png" alt="Workbook thumbnail: Book6"></a><div class="VizCard_upper__BCDMx"><a location="/profile/rahat.anjum/viz/Book6_16492634356060/companiesmissionStatusandpayloadtoorbit" class="VizCard_title__s0b6S" href="https://public.tableau.com/app/profile/rahat.anjum/viz/Book6_16492634356060/companiesmissionStatusandpayloadtoorbit">Book6</a><a location="/profile/rahat.anjum" class="VizCard_author__PWeL1" href="https://public.tableau.com/app/profile/rahat.anjum">Rahat Anjum</a></div><div class="VizCard_lower__qGaOW"><div class="VizCard_vizStats__9rYQ4" data-testid="VizCard-vizStats"><button class="Favorite_favoriteCount__MfM0u" data-testid="favorite-button" type="button" aria-checked="false" role="checkbox" tabindex="0" data-tip="Add Favorite" aria-label="Add Favorite" data-for="favoriteIcon-tooltip-Book6_16492634356060" currentitem="false"><i class="Favorite_favoriteUnselectedIcon__wVivj button_button__WpmSL"></i>0</button><div class="__react_component_tooltip t08c1c8b8-b3b7-46bb-aa6c-fa98b1d2ef01 place-bottom type-dark" id="favoriteIcon-tooltip-Book6_16492634356060" data-id="tooltip"><style aria-hidden="true">
+  	.t08c1c8b8-b3b7-46bb-aa6c-fa98b1d2ef01 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t08c1c8b8-b3b7-46bb-aa6c-fa98b1d2ef01.place-top {
+        margin-top: -10px;
+    }
+    .t08c1c8b8-b3b7-46bb-aa6c-fa98b1d2ef01.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t08c1c8b8-b3b7-46bb-aa6c-fa98b1d2ef01.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t08c1c8b8-b3b7-46bb-aa6c-fa98b1d2ef01.place-bottom {
+        margin-top: 10px;
+    }
+    .t08c1c8b8-b3b7-46bb-aa6c-fa98b1d2ef01.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t08c1c8b8-b3b7-46bb-aa6c-fa98b1d2ef01.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t08c1c8b8-b3b7-46bb-aa6c-fa98b1d2ef01.place-left {
+        margin-left: -10px;
+    }
+    .t08c1c8b8-b3b7-46bb-aa6c-fa98b1d2ef01.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t08c1c8b8-b3b7-46bb-aa6c-fa98b1d2ef01.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t08c1c8b8-b3b7-46bb-aa6c-fa98b1d2ef01.place-right {
+        margin-left: 10px;
+    }
+    .t08c1c8b8-b3b7-46bb-aa6c-fa98b1d2ef01.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t08c1c8b8-b3b7-46bb-aa6c-fa98b1d2ef01.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><span class="ViewCount_viewCount__fnCQf" data-tip="4 Views" aria-label="4 Views" data-for="viewCount-tooltip-Book6_16492634356060" tabindex="0" currentitem="false"><i class="ViewCount_viewCountIcon__bIM1B" data-testid="view-count-icon"></i>4</span><div class="__react_component_tooltip t571c15ef-403e-4b5d-9ef4-a4ac0f50f159 place-bottom type-dark" id="viewCount-tooltip-Book6_16492634356060" data-id="tooltip"><style aria-hidden="true">
+  	.t571c15ef-403e-4b5d-9ef4-a4ac0f50f159 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t571c15ef-403e-4b5d-9ef4-a4ac0f50f159.place-top {
+        margin-top: -10px;
+    }
+    .t571c15ef-403e-4b5d-9ef4-a4ac0f50f159.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t571c15ef-403e-4b5d-9ef4-a4ac0f50f159.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t571c15ef-403e-4b5d-9ef4-a4ac0f50f159.place-bottom {
+        margin-top: 10px;
+    }
+    .t571c15ef-403e-4b5d-9ef4-a4ac0f50f159.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t571c15ef-403e-4b5d-9ef4-a4ac0f50f159.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t571c15ef-403e-4b5d-9ef4-a4ac0f50f159.place-left {
+        margin-left: -10px;
+    }
+    .t571c15ef-403e-4b5d-9ef4-a4ac0f50f159.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t571c15ef-403e-4b5d-9ef4-a4ac0f50f159.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t571c15ef-403e-4b5d-9ef4-a4ac0f50f159.place-right {
+        margin-left: 10px;
+    }
+    .t571c15ef-403e-4b5d-9ef4-a4ac0f50f159.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t571c15ef-403e-4b5d-9ef4-a4ac0f50f159.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div></div><div aria-expanded="false" aria-haspopup="true" aria-label="More Actions" data-tip="More Actions" data-for="vizmenu-tooltip-Book6_16492634356060" class="VizCard_popoverMenuButton__YJXqB button_button__WpmSL" role="button" tabindex="0" data-testid="menu-button" currentitem="false"><i aria-hidden="true" class="VizCard_menuIcon__3X-WJ"></i></div><div class="__react_component_tooltip t87948924-32ca-435b-93b4-67c9617e6737 place-bottom type-dark" id="vizmenu-tooltip-Book6_16492634356060" data-id="tooltip"><style aria-hidden="true">
+  	.t87948924-32ca-435b-93b4-67c9617e6737 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t87948924-32ca-435b-93b4-67c9617e6737.place-top {
+        margin-top: -10px;
+    }
+    .t87948924-32ca-435b-93b4-67c9617e6737.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t87948924-32ca-435b-93b4-67c9617e6737.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t87948924-32ca-435b-93b4-67c9617e6737.place-bottom {
+        margin-top: 10px;
+    }
+    .t87948924-32ca-435b-93b4-67c9617e6737.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t87948924-32ca-435b-93b4-67c9617e6737.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t87948924-32ca-435b-93b4-67c9617e6737.place-left {
+        margin-left: -10px;
+    }
+    .t87948924-32ca-435b-93b4-67c9617e6737.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t87948924-32ca-435b-93b4-67c9617e6737.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t87948924-32ca-435b-93b4-67c9617e6737.place-right {
+        margin-left: 10px;
+    }
+    .t87948924-32ca-435b-93b4-67c9617e6737.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t87948924-32ca-435b-93b4-67c9617e6737.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><div aria-expanded="false" aria-haspopup="true" aria-label="More Actions" class="VizCard_bottomPanelMenuButton__BH+i4 button_button__WpmSL" role="button" tabindex="0"><i aria-hidden="true" class="VizCard_menuIcon__3X-WJ"></i></div></div></div></div><div class="WorkbookList_workbookGridItem__2SKsw" data-testid="WorkbookList-workbookGridItem"><div class="VizCard_container__VGf0Z"><a location="/profile/rahat.anjum/viz/Book5_16492634139020/Companyvhicleandhumidity" class="VizCard_thumbnailLink__Vvuvn" href="https://public.tableau.com/app/profile/rahat.anjum/viz/Book5_16492634139020/Companyvhicleandhumidity"><img class="VizCard_thumbnail__F0ISM" src="./Profile - rahat.anjum _ Tableau Public_files/4_3(7).png" alt="Workbook thumbnail: Book5"></a><div class="VizCard_upper__BCDMx"><a location="/profile/rahat.anjum/viz/Book5_16492634139020/Companyvhicleandhumidity" class="VizCard_title__s0b6S" href="https://public.tableau.com/app/profile/rahat.anjum/viz/Book5_16492634139020/Companyvhicleandhumidity">Book5</a><a location="/profile/rahat.anjum" class="VizCard_author__PWeL1" href="https://public.tableau.com/app/profile/rahat.anjum">Rahat Anjum</a></div><div class="VizCard_lower__qGaOW"><div class="VizCard_vizStats__9rYQ4" data-testid="VizCard-vizStats"><button class="Favorite_favoriteCount__MfM0u" data-testid="favorite-button" type="button" aria-checked="false" role="checkbox" tabindex="0" data-tip="Add Favorite" aria-label="Add Favorite" data-for="favoriteIcon-tooltip-Book5_16492634139020" currentitem="false"><i class="Favorite_favoriteUnselectedIcon__wVivj button_button__WpmSL"></i>0</button><div class="__react_component_tooltip t40178b27-d761-434e-a536-69418dcc6736 place-bottom type-dark" id="favoriteIcon-tooltip-Book5_16492634139020" data-id="tooltip"><style aria-hidden="true">
+  	.t40178b27-d761-434e-a536-69418dcc6736 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t40178b27-d761-434e-a536-69418dcc6736.place-top {
+        margin-top: -10px;
+    }
+    .t40178b27-d761-434e-a536-69418dcc6736.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t40178b27-d761-434e-a536-69418dcc6736.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t40178b27-d761-434e-a536-69418dcc6736.place-bottom {
+        margin-top: 10px;
+    }
+    .t40178b27-d761-434e-a536-69418dcc6736.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t40178b27-d761-434e-a536-69418dcc6736.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t40178b27-d761-434e-a536-69418dcc6736.place-left {
+        margin-left: -10px;
+    }
+    .t40178b27-d761-434e-a536-69418dcc6736.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t40178b27-d761-434e-a536-69418dcc6736.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t40178b27-d761-434e-a536-69418dcc6736.place-right {
+        margin-left: 10px;
+    }
+    .t40178b27-d761-434e-a536-69418dcc6736.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t40178b27-d761-434e-a536-69418dcc6736.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><span class="ViewCount_viewCount__fnCQf" data-tip="4 Views" aria-label="4 Views" data-for="viewCount-tooltip-Book5_16492634139020" tabindex="0" currentitem="false"><i class="ViewCount_viewCountIcon__bIM1B" data-testid="view-count-icon"></i>4</span><div class="__react_component_tooltip t6659620c-f19f-4b68-87b8-e1da73018898 place-bottom type-dark" id="viewCount-tooltip-Book5_16492634139020" data-id="tooltip"><style aria-hidden="true">
+  	.t6659620c-f19f-4b68-87b8-e1da73018898 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t6659620c-f19f-4b68-87b8-e1da73018898.place-top {
+        margin-top: -10px;
+    }
+    .t6659620c-f19f-4b68-87b8-e1da73018898.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t6659620c-f19f-4b68-87b8-e1da73018898.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t6659620c-f19f-4b68-87b8-e1da73018898.place-bottom {
+        margin-top: 10px;
+    }
+    .t6659620c-f19f-4b68-87b8-e1da73018898.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t6659620c-f19f-4b68-87b8-e1da73018898.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t6659620c-f19f-4b68-87b8-e1da73018898.place-left {
+        margin-left: -10px;
+    }
+    .t6659620c-f19f-4b68-87b8-e1da73018898.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t6659620c-f19f-4b68-87b8-e1da73018898.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t6659620c-f19f-4b68-87b8-e1da73018898.place-right {
+        margin-left: 10px;
+    }
+    .t6659620c-f19f-4b68-87b8-e1da73018898.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t6659620c-f19f-4b68-87b8-e1da73018898.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div></div><div aria-expanded="false" aria-haspopup="true" aria-label="More Actions" data-tip="More Actions" data-for="vizmenu-tooltip-Book5_16492634139020" class="VizCard_popoverMenuButton__YJXqB button_button__WpmSL" role="button" tabindex="0" data-testid="menu-button" currentitem="false"><i aria-hidden="true" class="VizCard_menuIcon__3X-WJ"></i></div><div class="__react_component_tooltip t2d12c16c-46c1-4b81-a0eb-18ebe586fdeb place-bottom type-dark" id="vizmenu-tooltip-Book5_16492634139020" data-id="tooltip"><style aria-hidden="true">
+  	.t2d12c16c-46c1-4b81-a0eb-18ebe586fdeb {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t2d12c16c-46c1-4b81-a0eb-18ebe586fdeb.place-top {
+        margin-top: -10px;
+    }
+    .t2d12c16c-46c1-4b81-a0eb-18ebe586fdeb.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t2d12c16c-46c1-4b81-a0eb-18ebe586fdeb.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t2d12c16c-46c1-4b81-a0eb-18ebe586fdeb.place-bottom {
+        margin-top: 10px;
+    }
+    .t2d12c16c-46c1-4b81-a0eb-18ebe586fdeb.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t2d12c16c-46c1-4b81-a0eb-18ebe586fdeb.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t2d12c16c-46c1-4b81-a0eb-18ebe586fdeb.place-left {
+        margin-left: -10px;
+    }
+    .t2d12c16c-46c1-4b81-a0eb-18ebe586fdeb.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t2d12c16c-46c1-4b81-a0eb-18ebe586fdeb.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t2d12c16c-46c1-4b81-a0eb-18ebe586fdeb.place-right {
+        margin-left: 10px;
+    }
+    .t2d12c16c-46c1-4b81-a0eb-18ebe586fdeb.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t2d12c16c-46c1-4b81-a0eb-18ebe586fdeb.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><div aria-expanded="false" aria-haspopup="true" aria-label="More Actions" class="VizCard_bottomPanelMenuButton__BH+i4 button_button__WpmSL" role="button" tabindex="0"><i aria-hidden="true" class="VizCard_menuIcon__3X-WJ"></i></div></div></div></div><div class="WorkbookList_workbookGridItem__2SKsw" data-testid="WorkbookList-workbookGridItem"><div class="VizCard_container__VGf0Z"><a location="/profile/rahat.anjum/viz/Book4_16492633457140/LaunchsideandHumidity" class="VizCard_thumbnailLink__Vvuvn" href="https://public.tableau.com/app/profile/rahat.anjum/viz/Book4_16492633457140/LaunchsideandHumidity"><img class="VizCard_thumbnail__F0ISM" src="./Profile - rahat.anjum _ Tableau Public_files/4_3(8).png" alt="Workbook thumbnail: Book4"></a><div class="VizCard_upper__BCDMx"><a location="/profile/rahat.anjum/viz/Book4_16492633457140/LaunchsideandHumidity" class="VizCard_title__s0b6S" href="https://public.tableau.com/app/profile/rahat.anjum/viz/Book4_16492633457140/LaunchsideandHumidity">Book4</a><a location="/profile/rahat.anjum" class="VizCard_author__PWeL1" href="https://public.tableau.com/app/profile/rahat.anjum">Rahat Anjum</a></div><div class="VizCard_lower__qGaOW"><div class="VizCard_vizStats__9rYQ4" data-testid="VizCard-vizStats"><button class="Favorite_favoriteCount__MfM0u" data-testid="favorite-button" type="button" aria-checked="false" role="checkbox" tabindex="0" data-tip="Add Favorite" aria-label="Add Favorite" data-for="favoriteIcon-tooltip-Book4_16492633457140" currentitem="false"><i class="Favorite_favoriteUnselectedIcon__wVivj button_button__WpmSL"></i>0</button><div class="__react_component_tooltip t62b19c33-5cdc-4c0e-bc36-a9f7f0d32ccb place-bottom type-dark" id="favoriteIcon-tooltip-Book4_16492633457140" data-id="tooltip"><style aria-hidden="true">
+  	.t62b19c33-5cdc-4c0e-bc36-a9f7f0d32ccb {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t62b19c33-5cdc-4c0e-bc36-a9f7f0d32ccb.place-top {
+        margin-top: -10px;
+    }
+    .t62b19c33-5cdc-4c0e-bc36-a9f7f0d32ccb.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t62b19c33-5cdc-4c0e-bc36-a9f7f0d32ccb.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t62b19c33-5cdc-4c0e-bc36-a9f7f0d32ccb.place-bottom {
+        margin-top: 10px;
+    }
+    .t62b19c33-5cdc-4c0e-bc36-a9f7f0d32ccb.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t62b19c33-5cdc-4c0e-bc36-a9f7f0d32ccb.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t62b19c33-5cdc-4c0e-bc36-a9f7f0d32ccb.place-left {
+        margin-left: -10px;
+    }
+    .t62b19c33-5cdc-4c0e-bc36-a9f7f0d32ccb.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t62b19c33-5cdc-4c0e-bc36-a9f7f0d32ccb.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t62b19c33-5cdc-4c0e-bc36-a9f7f0d32ccb.place-right {
+        margin-left: 10px;
+    }
+    .t62b19c33-5cdc-4c0e-bc36-a9f7f0d32ccb.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t62b19c33-5cdc-4c0e-bc36-a9f7f0d32ccb.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><span class="ViewCount_viewCount__fnCQf" data-tip="4 Views" aria-label="4 Views" data-for="viewCount-tooltip-Book4_16492633457140" tabindex="0" currentitem="false"><i class="ViewCount_viewCountIcon__bIM1B" data-testid="view-count-icon"></i>4</span><div class="__react_component_tooltip t064818d4-cc22-4a25-8be9-b069250111db place-bottom type-dark" id="viewCount-tooltip-Book4_16492633457140" data-id="tooltip"><style aria-hidden="true">
+  	.t064818d4-cc22-4a25-8be9-b069250111db {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t064818d4-cc22-4a25-8be9-b069250111db.place-top {
+        margin-top: -10px;
+    }
+    .t064818d4-cc22-4a25-8be9-b069250111db.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t064818d4-cc22-4a25-8be9-b069250111db.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t064818d4-cc22-4a25-8be9-b069250111db.place-bottom {
+        margin-top: 10px;
+    }
+    .t064818d4-cc22-4a25-8be9-b069250111db.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t064818d4-cc22-4a25-8be9-b069250111db.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t064818d4-cc22-4a25-8be9-b069250111db.place-left {
+        margin-left: -10px;
+    }
+    .t064818d4-cc22-4a25-8be9-b069250111db.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t064818d4-cc22-4a25-8be9-b069250111db.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t064818d4-cc22-4a25-8be9-b069250111db.place-right {
+        margin-left: 10px;
+    }
+    .t064818d4-cc22-4a25-8be9-b069250111db.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t064818d4-cc22-4a25-8be9-b069250111db.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div></div><div aria-expanded="false" aria-haspopup="true" aria-label="More Actions" data-tip="More Actions" data-for="vizmenu-tooltip-Book4_16492633457140" class="VizCard_popoverMenuButton__YJXqB button_button__WpmSL" role="button" tabindex="0" data-testid="menu-button" currentitem="false"><i aria-hidden="true" class="VizCard_menuIcon__3X-WJ"></i></div><div class="__react_component_tooltip t2eff5869-4646-48c1-8587-b18e814ba567 place-bottom type-dark" id="vizmenu-tooltip-Book4_16492633457140" data-id="tooltip"><style aria-hidden="true">
+  	.t2eff5869-4646-48c1-8587-b18e814ba567 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t2eff5869-4646-48c1-8587-b18e814ba567.place-top {
+        margin-top: -10px;
+    }
+    .t2eff5869-4646-48c1-8587-b18e814ba567.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t2eff5869-4646-48c1-8587-b18e814ba567.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t2eff5869-4646-48c1-8587-b18e814ba567.place-bottom {
+        margin-top: 10px;
+    }
+    .t2eff5869-4646-48c1-8587-b18e814ba567.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t2eff5869-4646-48c1-8587-b18e814ba567.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t2eff5869-4646-48c1-8587-b18e814ba567.place-left {
+        margin-left: -10px;
+    }
+    .t2eff5869-4646-48c1-8587-b18e814ba567.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t2eff5869-4646-48c1-8587-b18e814ba567.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t2eff5869-4646-48c1-8587-b18e814ba567.place-right {
+        margin-left: 10px;
+    }
+    .t2eff5869-4646-48c1-8587-b18e814ba567.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t2eff5869-4646-48c1-8587-b18e814ba567.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><div aria-expanded="false" aria-haspopup="true" aria-label="More Actions" class="VizCard_bottomPanelMenuButton__BH+i4 button_button__WpmSL" role="button" tabindex="0"><i aria-hidden="true" class="VizCard_menuIcon__3X-WJ"></i></div></div></div></div><div class="WorkbookList_workbookGridItem__2SKsw" data-testid="WorkbookList-workbookGridItem"><div class="VizCard_container__VGf0Z"><a location="/profile/rahat.anjum/viz/Book3_16492633207900/launchsiteAVGwithwindspeed" class="VizCard_thumbnailLink__Vvuvn" href="https://public.tableau.com/app/profile/rahat.anjum/viz/Book3_16492633207900/launchsiteAVGwithwindspeed"><img class="VizCard_thumbnail__F0ISM" src="./Profile - rahat.anjum _ Tableau Public_files/4_3(9).png" alt="Workbook thumbnail: Book3"></a><div class="VizCard_upper__BCDMx"><a location="/profile/rahat.anjum/viz/Book3_16492633207900/launchsiteAVGwithwindspeed" class="VizCard_title__s0b6S" href="https://public.tableau.com/app/profile/rahat.anjum/viz/Book3_16492633207900/launchsiteAVGwithwindspeed">Book3</a><a location="/profile/rahat.anjum" class="VizCard_author__PWeL1" href="https://public.tableau.com/app/profile/rahat.anjum">Rahat Anjum</a></div><div class="VizCard_lower__qGaOW"><div class="VizCard_vizStats__9rYQ4" data-testid="VizCard-vizStats"><button class="Favorite_favoriteCount__MfM0u" data-testid="favorite-button" type="button" aria-checked="false" role="checkbox" tabindex="0" data-tip="Add Favorite" aria-label="Add Favorite" data-for="favoriteIcon-tooltip-Book3_16492633207900" currentitem="false"><i class="Favorite_favoriteUnselectedIcon__wVivj button_button__WpmSL"></i>0</button><div class="__react_component_tooltip tbd23ac73-24ce-48ea-80fc-f77b21d7455e place-bottom type-dark" id="favoriteIcon-tooltip-Book3_16492633207900" data-id="tooltip"><style aria-hidden="true">
+  	.tbd23ac73-24ce-48ea-80fc-f77b21d7455e {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.tbd23ac73-24ce-48ea-80fc-f77b21d7455e.place-top {
+        margin-top: -10px;
+    }
+    .tbd23ac73-24ce-48ea-80fc-f77b21d7455e.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .tbd23ac73-24ce-48ea-80fc-f77b21d7455e.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .tbd23ac73-24ce-48ea-80fc-f77b21d7455e.place-bottom {
+        margin-top: 10px;
+    }
+    .tbd23ac73-24ce-48ea-80fc-f77b21d7455e.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .tbd23ac73-24ce-48ea-80fc-f77b21d7455e.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .tbd23ac73-24ce-48ea-80fc-f77b21d7455e.place-left {
+        margin-left: -10px;
+    }
+    .tbd23ac73-24ce-48ea-80fc-f77b21d7455e.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .tbd23ac73-24ce-48ea-80fc-f77b21d7455e.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .tbd23ac73-24ce-48ea-80fc-f77b21d7455e.place-right {
+        margin-left: 10px;
+    }
+    .tbd23ac73-24ce-48ea-80fc-f77b21d7455e.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .tbd23ac73-24ce-48ea-80fc-f77b21d7455e.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><span class="ViewCount_viewCount__fnCQf" data-tip="4 Views" aria-label="4 Views" data-for="viewCount-tooltip-Book3_16492633207900" tabindex="0" currentitem="false"><i class="ViewCount_viewCountIcon__bIM1B" data-testid="view-count-icon"></i>4</span><div class="__react_component_tooltip t7cff0c83-63a0-4056-8432-0c8f7135bebd place-bottom type-dark" id="viewCount-tooltip-Book3_16492633207900" data-id="tooltip"><style aria-hidden="true">
+  	.t7cff0c83-63a0-4056-8432-0c8f7135bebd {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t7cff0c83-63a0-4056-8432-0c8f7135bebd.place-top {
+        margin-top: -10px;
+    }
+    .t7cff0c83-63a0-4056-8432-0c8f7135bebd.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t7cff0c83-63a0-4056-8432-0c8f7135bebd.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t7cff0c83-63a0-4056-8432-0c8f7135bebd.place-bottom {
+        margin-top: 10px;
+    }
+    .t7cff0c83-63a0-4056-8432-0c8f7135bebd.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t7cff0c83-63a0-4056-8432-0c8f7135bebd.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t7cff0c83-63a0-4056-8432-0c8f7135bebd.place-left {
+        margin-left: -10px;
+    }
+    .t7cff0c83-63a0-4056-8432-0c8f7135bebd.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t7cff0c83-63a0-4056-8432-0c8f7135bebd.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t7cff0c83-63a0-4056-8432-0c8f7135bebd.place-right {
+        margin-left: 10px;
+    }
+    .t7cff0c83-63a0-4056-8432-0c8f7135bebd.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t7cff0c83-63a0-4056-8432-0c8f7135bebd.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div></div><div aria-expanded="false" aria-haspopup="true" aria-label="More Actions" data-tip="More Actions" data-for="vizmenu-tooltip-Book3_16492633207900" class="VizCard_popoverMenuButton__YJXqB button_button__WpmSL" role="button" tabindex="0" data-testid="menu-button" currentitem="false"><i aria-hidden="true" class="VizCard_menuIcon__3X-WJ"></i></div><div class="__react_component_tooltip t320af777-c1f0-411f-b260-fab001b879c7 place-bottom type-dark" id="vizmenu-tooltip-Book3_16492633207900" data-id="tooltip"><style aria-hidden="true">
+  	.t320af777-c1f0-411f-b260-fab001b879c7 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t320af777-c1f0-411f-b260-fab001b879c7.place-top {
+        margin-top: -10px;
+    }
+    .t320af777-c1f0-411f-b260-fab001b879c7.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t320af777-c1f0-411f-b260-fab001b879c7.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t320af777-c1f0-411f-b260-fab001b879c7.place-bottom {
+        margin-top: 10px;
+    }
+    .t320af777-c1f0-411f-b260-fab001b879c7.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t320af777-c1f0-411f-b260-fab001b879c7.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t320af777-c1f0-411f-b260-fab001b879c7.place-left {
+        margin-left: -10px;
+    }
+    .t320af777-c1f0-411f-b260-fab001b879c7.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t320af777-c1f0-411f-b260-fab001b879c7.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t320af777-c1f0-411f-b260-fab001b879c7.place-right {
+        margin-left: 10px;
+    }
+    .t320af777-c1f0-411f-b260-fab001b879c7.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t320af777-c1f0-411f-b260-fab001b879c7.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><div aria-expanded="false" aria-haspopup="true" aria-label="More Actions" class="VizCard_bottomPanelMenuButton__BH+i4 button_button__WpmSL" role="button" tabindex="0"><i aria-hidden="true" class="VizCard_menuIcon__3X-WJ"></i></div></div></div></div><div class="WorkbookList_workbookGridItem__2SKsw" data-testid="WorkbookList-workbookGridItem"><div class="VizCard_container__VGf0Z"><a location="/profile/rahat.anjum/viz/Book2_16492632041230/Averagetempforluanchsite" class="VizCard_thumbnailLink__Vvuvn" href="https://public.tableau.com/app/profile/rahat.anjum/viz/Book2_16492632041230/Averagetempforluanchsite"><img class="VizCard_thumbnail__F0ISM" src="./Profile - rahat.anjum _ Tableau Public_files/4_3(10).png" alt="Workbook thumbnail: Book2"></a><div class="VizCard_upper__BCDMx"><a location="/profile/rahat.anjum/viz/Book2_16492632041230/Averagetempforluanchsite" class="VizCard_title__s0b6S" href="https://public.tableau.com/app/profile/rahat.anjum/viz/Book2_16492632041230/Averagetempforluanchsite">Book2</a><a location="/profile/rahat.anjum" class="VizCard_author__PWeL1" href="https://public.tableau.com/app/profile/rahat.anjum">Rahat Anjum</a></div><div class="VizCard_lower__qGaOW"><div class="VizCard_vizStats__9rYQ4" data-testid="VizCard-vizStats"><button class="Favorite_favoriteCount__MfM0u" data-testid="favorite-button" type="button" aria-checked="false" role="checkbox" tabindex="0" data-tip="Add Favorite" aria-label="Add Favorite" data-for="favoriteIcon-tooltip-Book2_16492632041230" currentitem="false"><i class="Favorite_favoriteUnselectedIcon__wVivj button_button__WpmSL"></i>0</button><div class="__react_component_tooltip t7f1ec785-b0bb-42ae-aefb-7796fb11fa0a place-bottom type-dark" id="favoriteIcon-tooltip-Book2_16492632041230" data-id="tooltip"><style aria-hidden="true">
+  	.t7f1ec785-b0bb-42ae-aefb-7796fb11fa0a {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t7f1ec785-b0bb-42ae-aefb-7796fb11fa0a.place-top {
+        margin-top: -10px;
+    }
+    .t7f1ec785-b0bb-42ae-aefb-7796fb11fa0a.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t7f1ec785-b0bb-42ae-aefb-7796fb11fa0a.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t7f1ec785-b0bb-42ae-aefb-7796fb11fa0a.place-bottom {
+        margin-top: 10px;
+    }
+    .t7f1ec785-b0bb-42ae-aefb-7796fb11fa0a.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t7f1ec785-b0bb-42ae-aefb-7796fb11fa0a.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t7f1ec785-b0bb-42ae-aefb-7796fb11fa0a.place-left {
+        margin-left: -10px;
+    }
+    .t7f1ec785-b0bb-42ae-aefb-7796fb11fa0a.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t7f1ec785-b0bb-42ae-aefb-7796fb11fa0a.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t7f1ec785-b0bb-42ae-aefb-7796fb11fa0a.place-right {
+        margin-left: 10px;
+    }
+    .t7f1ec785-b0bb-42ae-aefb-7796fb11fa0a.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t7f1ec785-b0bb-42ae-aefb-7796fb11fa0a.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><span class="ViewCount_viewCount__fnCQf" data-tip="4 Views" aria-label="4 Views" data-for="viewCount-tooltip-Book2_16492632041230" tabindex="0" currentitem="false"><i class="ViewCount_viewCountIcon__bIM1B" data-testid="view-count-icon"></i>4</span><div class="__react_component_tooltip t2a2ff13d-21d3-42a7-abfe-8253805d15ef place-bottom type-dark" id="viewCount-tooltip-Book2_16492632041230" data-id="tooltip"><style aria-hidden="true">
+  	.t2a2ff13d-21d3-42a7-abfe-8253805d15ef {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t2a2ff13d-21d3-42a7-abfe-8253805d15ef.place-top {
+        margin-top: -10px;
+    }
+    .t2a2ff13d-21d3-42a7-abfe-8253805d15ef.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t2a2ff13d-21d3-42a7-abfe-8253805d15ef.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t2a2ff13d-21d3-42a7-abfe-8253805d15ef.place-bottom {
+        margin-top: 10px;
+    }
+    .t2a2ff13d-21d3-42a7-abfe-8253805d15ef.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t2a2ff13d-21d3-42a7-abfe-8253805d15ef.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t2a2ff13d-21d3-42a7-abfe-8253805d15ef.place-left {
+        margin-left: -10px;
+    }
+    .t2a2ff13d-21d3-42a7-abfe-8253805d15ef.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t2a2ff13d-21d3-42a7-abfe-8253805d15ef.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t2a2ff13d-21d3-42a7-abfe-8253805d15ef.place-right {
+        margin-left: 10px;
+    }
+    .t2a2ff13d-21d3-42a7-abfe-8253805d15ef.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t2a2ff13d-21d3-42a7-abfe-8253805d15ef.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div></div><div aria-expanded="false" aria-haspopup="true" aria-label="More Actions" data-tip="More Actions" data-for="vizmenu-tooltip-Book2_16492632041230" class="VizCard_popoverMenuButton__YJXqB button_button__WpmSL" role="button" tabindex="0" data-testid="menu-button" currentitem="false"><i aria-hidden="true" class="VizCard_menuIcon__3X-WJ"></i></div><div class="__react_component_tooltip te2f9b45c-6f16-41ed-a5f4-76171529d7b8 place-bottom type-dark" id="vizmenu-tooltip-Book2_16492632041230" data-id="tooltip"><style aria-hidden="true">
+  	.te2f9b45c-6f16-41ed-a5f4-76171529d7b8 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.te2f9b45c-6f16-41ed-a5f4-76171529d7b8.place-top {
+        margin-top: -10px;
+    }
+    .te2f9b45c-6f16-41ed-a5f4-76171529d7b8.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .te2f9b45c-6f16-41ed-a5f4-76171529d7b8.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .te2f9b45c-6f16-41ed-a5f4-76171529d7b8.place-bottom {
+        margin-top: 10px;
+    }
+    .te2f9b45c-6f16-41ed-a5f4-76171529d7b8.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .te2f9b45c-6f16-41ed-a5f4-76171529d7b8.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .te2f9b45c-6f16-41ed-a5f4-76171529d7b8.place-left {
+        margin-left: -10px;
+    }
+    .te2f9b45c-6f16-41ed-a5f4-76171529d7b8.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .te2f9b45c-6f16-41ed-a5f4-76171529d7b8.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .te2f9b45c-6f16-41ed-a5f4-76171529d7b8.place-right {
+        margin-left: 10px;
+    }
+    .te2f9b45c-6f16-41ed-a5f4-76171529d7b8.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .te2f9b45c-6f16-41ed-a5f4-76171529d7b8.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><div aria-expanded="false" aria-haspopup="true" aria-label="More Actions" class="VizCard_bottomPanelMenuButton__BH+i4 button_button__WpmSL" role="button" tabindex="0"><i aria-hidden="true" class="VizCard_menuIcon__3X-WJ"></i></div></div></div></div><div class="WorkbookList_workbookGridItem__2SKsw" data-testid="WorkbookList-workbookGridItem"><div class="VizCard_container__VGf0Z"><a location="/profile/rahat.anjum/viz/Book1_16492630449230/launchsitandRockettempandwindspeed" class="VizCard_thumbnailLink__Vvuvn" href="https://public.tableau.com/app/profile/rahat.anjum/viz/Book1_16492630449230/launchsitandRockettempandwindspeed"><img class="VizCard_thumbnail__F0ISM" src="./Profile - rahat.anjum _ Tableau Public_files/4_3(11).png" alt="Workbook thumbnail: Book1"></a><div class="VizCard_upper__BCDMx"><a location="/profile/rahat.anjum/viz/Book1_16492630449230/launchsitandRockettempandwindspeed" class="VizCard_title__s0b6S" href="https://public.tableau.com/app/profile/rahat.anjum/viz/Book1_16492630449230/launchsitandRockettempandwindspeed">Book1</a><a location="/profile/rahat.anjum" class="VizCard_author__PWeL1" href="https://public.tableau.com/app/profile/rahat.anjum">Rahat Anjum</a></div><div class="VizCard_lower__qGaOW"><div class="VizCard_vizStats__9rYQ4" data-testid="VizCard-vizStats"><button class="Favorite_favoriteCount__MfM0u" data-testid="favorite-button" type="button" aria-checked="false" role="checkbox" tabindex="0" data-tip="Add Favorite" aria-label="Add Favorite" data-for="favoriteIcon-tooltip-Book1_16492630449230" currentitem="false"><i class="Favorite_favoriteUnselectedIcon__wVivj button_button__WpmSL"></i>0</button><div class="__react_component_tooltip t8c5e493b-8894-43b9-9df0-9955ceae2ce3 place-bottom type-dark" id="favoriteIcon-tooltip-Book1_16492630449230" data-id="tooltip"><style aria-hidden="true">
+  	.t8c5e493b-8894-43b9-9df0-9955ceae2ce3 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t8c5e493b-8894-43b9-9df0-9955ceae2ce3.place-top {
+        margin-top: -10px;
+    }
+    .t8c5e493b-8894-43b9-9df0-9955ceae2ce3.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t8c5e493b-8894-43b9-9df0-9955ceae2ce3.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t8c5e493b-8894-43b9-9df0-9955ceae2ce3.place-bottom {
+        margin-top: 10px;
+    }
+    .t8c5e493b-8894-43b9-9df0-9955ceae2ce3.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t8c5e493b-8894-43b9-9df0-9955ceae2ce3.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t8c5e493b-8894-43b9-9df0-9955ceae2ce3.place-left {
+        margin-left: -10px;
+    }
+    .t8c5e493b-8894-43b9-9df0-9955ceae2ce3.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t8c5e493b-8894-43b9-9df0-9955ceae2ce3.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t8c5e493b-8894-43b9-9df0-9955ceae2ce3.place-right {
+        margin-left: 10px;
+    }
+    .t8c5e493b-8894-43b9-9df0-9955ceae2ce3.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t8c5e493b-8894-43b9-9df0-9955ceae2ce3.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><span class="ViewCount_viewCount__fnCQf" data-tip="7 Views" aria-label="7 Views" data-for="viewCount-tooltip-Book1_16492630449230" tabindex="0" currentitem="false"><i class="ViewCount_viewCountIcon__bIM1B" data-testid="view-count-icon"></i>7</span><div class="__react_component_tooltip t38113275-24c5-4377-b966-d6083ee72490 place-bottom type-dark" id="viewCount-tooltip-Book1_16492630449230" data-id="tooltip"><style aria-hidden="true">
+  	.t38113275-24c5-4377-b966-d6083ee72490 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t38113275-24c5-4377-b966-d6083ee72490.place-top {
+        margin-top: -10px;
+    }
+    .t38113275-24c5-4377-b966-d6083ee72490.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t38113275-24c5-4377-b966-d6083ee72490.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t38113275-24c5-4377-b966-d6083ee72490.place-bottom {
+        margin-top: 10px;
+    }
+    .t38113275-24c5-4377-b966-d6083ee72490.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t38113275-24c5-4377-b966-d6083ee72490.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t38113275-24c5-4377-b966-d6083ee72490.place-left {
+        margin-left: -10px;
+    }
+    .t38113275-24c5-4377-b966-d6083ee72490.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t38113275-24c5-4377-b966-d6083ee72490.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t38113275-24c5-4377-b966-d6083ee72490.place-right {
+        margin-left: 10px;
+    }
+    .t38113275-24c5-4377-b966-d6083ee72490.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t38113275-24c5-4377-b966-d6083ee72490.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div></div><div aria-expanded="false" aria-haspopup="true" aria-label="More Actions" data-tip="More Actions" data-for="vizmenu-tooltip-Book1_16492630449230" class="VizCard_popoverMenuButton__YJXqB button_button__WpmSL" role="button" tabindex="0" data-testid="menu-button" currentitem="false"><i aria-hidden="true" class="VizCard_menuIcon__3X-WJ"></i></div><div class="__react_component_tooltip t1ea6d3ae-a445-4803-9ea4-252b5bc28d3c place-bottom type-dark" id="vizmenu-tooltip-Book1_16492630449230" data-id="tooltip"><style aria-hidden="true">
+  	.t1ea6d3ae-a445-4803-9ea4-252b5bc28d3c {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t1ea6d3ae-a445-4803-9ea4-252b5bc28d3c.place-top {
+        margin-top: -10px;
+    }
+    .t1ea6d3ae-a445-4803-9ea4-252b5bc28d3c.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t1ea6d3ae-a445-4803-9ea4-252b5bc28d3c.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t1ea6d3ae-a445-4803-9ea4-252b5bc28d3c.place-bottom {
+        margin-top: 10px;
+    }
+    .t1ea6d3ae-a445-4803-9ea4-252b5bc28d3c.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t1ea6d3ae-a445-4803-9ea4-252b5bc28d3c.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t1ea6d3ae-a445-4803-9ea4-252b5bc28d3c.place-left {
+        margin-left: -10px;
+    }
+    .t1ea6d3ae-a445-4803-9ea4-252b5bc28d3c.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t1ea6d3ae-a445-4803-9ea4-252b5bc28d3c.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t1ea6d3ae-a445-4803-9ea4-252b5bc28d3c.place-right {
+        margin-left: 10px;
+    }
+    .t1ea6d3ae-a445-4803-9ea4-252b5bc28d3c.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t1ea6d3ae-a445-4803-9ea4-252b5bc28d3c.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><div aria-expanded="false" aria-haspopup="true" aria-label="More Actions" class="VizCard_bottomPanelMenuButton__BH+i4 button_button__WpmSL" role="button" tabindex="0"><i aria-hidden="true" class="VizCard_menuIcon__3X-WJ"></i></div></div></div></div></div></div></div></div></div></div></div><footer class="Footer_container__iICw7"><div class="Footer_flex__4WLkT"><div class="Footer_general__K+uQY"><a href="https://www.tableau.com/en-us" location="//www.tableau.com/en-us"><img alt="tableau logo" loading="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlgAAAB7BAMAAABa7+NeAAAAD1BMVEUAAAD///////////////+PQt5oAAAABXRSTlMA/gCbXFS6KSsAAAR6SURBVHhe7dxhdps6EAVgvyUM6gYAbUCIDXjQ/tfUR0t60woJzakDdn3vn5AIsPwdRSaMwq2e/6QbPsLc6s09sYhFLGIR6zVCLGIRi1jEItYY/08Qt36Z82ZieZFvw5a7IJ9/OJ0DQCxiESuf4IlFrDzEIhaxiEUsYhGLWMRKKSmx2jIKuvsMWD5pIxaxEGARK/3MIuK2Tf1dcdshiMzb5vtiSZbuj7kry7+PRSxiEcujUvJcWHGLiNu2pqzUs0awwzkD5z0uHXzL5TWxMMt152ARi1jEIhY+vbURi1giQixiEeuvQyxiEYtYxFri/K5Yd7FiBai+G1awYxFrSEmrWD4lfRzWEkSiDne45hY+irjZirUeFVMF4OO0IiL7hW6UtTYaBRZSwEIehOWD/Mi8Yk37Fm6Rn1ET1naUQ0NhB93B6gWnBWZIQa/D8vKRUMZC1IC16te0cGrXijVOaeiuwwqCNGC5VixQFHvgBWnE6se5Wy7DGsWGJV0zVmFAIsGOtYza9ZdhBSuWtGL1ghRHnh1LpsuwRjFjdY1YBQnkLg8eWejOZMDyUorudzimeIQVEz7bjrFwWAw48Z6mm5dgmLMWned9rCB5XAPWKKVMex12ugKHGpZT9OcYC+NGt/ai5owriBYs/20Yp9tWaI5r9AgrHz1GLEBguPkiFl4U4AdY2HVzczua0BhbsYbRueGWvaNTsPrPk9Ad7QUL7F/DAr3Dtux/tCgwjrG2nI8FH9F2rAEEJSwIgn53zAowXgMrQP8QC7oHWBiDeJl8PHoImrHsE/zn5TazGQt96CxY/TEWVEFc+OUVfSDWgiVIErfMLZcO8VdWb4dvNceaDFh4i1UsDKb8fWfsdqzTL0ox76kFy7diyW8pYLmXwxoMWBiLZixX+D19GazxWbCIRazQhuXfFMs/+cjyJxUs/NdiaQb/FVjj15fCgKWPxKqg1iz8P4cF3kdhub/B8uk8LLwlAxZmOcMVfMN8acdCxrMWhgRANGHZ/zasY+lrYMHHtWFB19nuOuSBT9eI5a/FQqtM7VheANN0P6uS7H5T5Q7teDkWbo83Y92td0pBvl/cmepYkn0aXIEFCAhVsFx2y76ChekQ9osr1BW1iOWBibn1Iiz0AiWWEtZW3VkspbAeZx58EFeq16V1c8mwMD9ifrsaqxekjGUvsuKwGCOIq4W+QvkHVbqrsQY7lhaw6hbOVr5Hu4sRzXUsrOsavgarN2GB5RhrrGGBE6m3d0WsE/8rLBix2pcc3StY4ETq7cMzYHkblrZj+QoWOJFq+3Q1Vo4xl9YyArMRC1o40H7qgI5dioX4uEmgUFbgcmpbgOtDdmBhDzcX1wZvh+dYKPaJ+VEFdiwkLXPSKui6h2VpNyqYEqNWzxyrr+1T4hNDjCEWsYj1Gs+i0d0VHwELRd4I6/GXDsS6i3v1R28SCyEWsYhFLGIRi1jEIhaxiIUHdQdxaU0di1jyOedgEYtYxEJyrGqIlbIJvhRi4dLhFUMsYhGLWAyxiEUsYhGLWMx3Bkx0WENiWDoAAAAASUVORK5CYII="></a><p>© 2022 Tableau Software, LLC, a Salesforce Company. <br>All Rights Reserved.</p></div><div class="Footer_navigation__vr48y"><nav aria-labelledby="products"><h3 id="products">Products</h3><a href="https://www.tableau.com/en-us/products/desktop" class="Footer_link__sgKeT" target="_blank" rel="noopener noreferrer" location="https://www.tableau.com/en-us/products/desktop">Tableau Desktop</a><a href="https://www.tableau.com/en-us/products/server" class="Footer_link__sgKeT" target="_blank" rel="noopener noreferrer" location="https://www.tableau.com/en-us/products/server">Tableau Server</a><a href="https://www.tableau.com/en-us/products/online" class="Footer_link__sgKeT" target="_blank" rel="noopener noreferrer" location="https://www.tableau.com/en-us/products/online">Tableau Online</a><a href="https://www.tableau.com/en-us/products/prep" class="Footer_link__sgKeT" target="_blank" rel="noopener noreferrer" location="https://www.tableau.com/en-us/products/prep">Tableau Prep</a><a href="https://www.tableau.com/en-us/products/public/download" class="Footer_link__sgKeT Footer_publicDownload__jwBcb" location="https://www.tableau.com/en-us/products/public/download">Tableau Public <span class="orangeBadge">Free</span></a></nav><nav aria-labelledby="legal"><h3 id="legal">Legal</h3><a href="https://www.tableau.com/en-us/privacy" class="Footer_link__sgKeT" target="_blank" rel="noopener noreferrer" location="https://www.tableau.com/en-us/privacy">Privacy Policy</a><a href="https://public.tableau.com/s/data-policy" class="Footer_link__sgKeT" location="//public.tableau.com/s/data-policy">Data Policy</a><a href="https://www.tableau.com/en-us/tos" class="Footer_link__sgKeT" target="_blank" rel="noopener noreferrer" location="https://www.tableau.com/en-us/tos">Terms of Service</a><a href="https://www.tableau.com/en-us/ip" class="Footer_link__sgKeT" target="_blank" rel="noopener noreferrer" location="https://www.tableau.com/en-us/ip">Patents &amp; IP</a><a href="https://www.tableau.com/en-us/do-not-sell-my-personal-information" class="Footer_link__sgKeT" target="_blank" rel="noopener noreferrer" location="https://www.tableau.com/en-us/do-not-sell-my-personal-information">Do Not Sell My Personal Information</a></nav><nav aria-labelledby="about"><h3 id="about">About</h3><a href="https://public.tableau.com/s/about" class="Footer_link__sgKeT" location="//public.tableau.com/s/about">What is Tableau Public?</a><a href="https://trust.tableau.com/" class="Footer_link__sgKeT" target="_blank" rel="noopener noreferrer" location="https://trust.tableau.com">Current Status</a><a href="https://public.tableau.com/s/faq" class="Footer_link__sgKeT" location="//public.tableau.com/s/faq">FAQ</a><a href="http://careers.tableau.com/" class="Footer_link__sgKeT" target="_blank" rel="noopener noreferrer" location="http://careers.tableau.com">Careers</a><a href="https://public.tableau.com/s/contact-us" class="Footer_link__sgKeT" location="//public.tableau.com/s/contact-us">Contact Us</a></nav></div><div class="Footer_social__MfQNF"><a href="https://www.twitter.com/tableaupublic" target="_blank" rel="noopener noreferrer" location="https://www.twitter.com/tableaupublic"><i class="Footer_socialIconTwitter__YdCpD" role="button" aria-label="Twitter link"></i></a><a href="https://www.facebook.com/TableauPublic" target="_blank" rel="noopener noreferrer" location="https://www.facebook.com/TableauPublic"><i class="Footer_socialIconFacebook__F+nBr" role="button" aria-label="Facebook link"></i></a><a href="https://www.linkedin.com/company/tableau-software" target="_blank" rel="noopener noreferrer" location="https://www.linkedin.com/company/tableau-software"><i class="Footer_socialIconLinkedin__cE-mZ" role="button" aria-label="Linkedin link"></i></a></div></div><div class="LocaleSwitcher_localeSwitcher__Mq7kb"><select aria-label="locale switcher"><option value="de-DE">Deutsch</option><option value="en-GB">English (UK)</option><option value="en-US">English</option><option value="es-ES">Español</option><option value="fr-FR">Français</option><option value="it-IT">Italiano</option><option value="pt-BR">Português</option><option value="ja-JP">日本語</option><option value="ko-KR">한국어</option><option value="zh-CN">简体中文</option><option value="zh-TW">繁體中文</option></select></div></footer></div></div><script src="./Profile - rahat.anjum _ Tableau Public_files/tableau-2.9.1.min.js.download" async=""></script></body></html>
